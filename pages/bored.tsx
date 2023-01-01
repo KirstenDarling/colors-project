@@ -1,17 +1,44 @@
 import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
+import { setConstantValue } from "typescript";
+import Modal from "../components/Modal/Modal";
 
 import activities from "../data/activities.json";
 
 export default function Bored() {
   const [isOpen, setIsOpen] = useState(false);
+  const [activityName, setActivityName] = useState("Insert Activity Name Here");
+  const [cost, setCost] = useState(0);
+  const [stayingIn, setStayingIn] = useState(true);
+  const [datesAvailable, setDatesAvailable] = useState("year round");
+  const [weekendGetaway, setWeekendGetaway] = useState(true);
+  const [neighborhood, setNeighborhood] = useState("any");
+  const [isFoodOption, setIsFoodOption] = useState(true);
+  const [hasDrinks, sethasDrinks] = useState(true);
+  const [haveBeen, setHaveBeen] = useState(false);
+
+  function close() {
+    setIsOpen(false);
+  }
+
   function pickOne() {
     console.log(activities);
-    var winner =
-      activities[Math.floor(Math.random() * activities.length)].activity;
+    var winner = activities[Math.floor(Math.random() * activities.length)];
     console.log(winner);
-    alert(winner);
+    console.log(winner.activity);
+    setIsOpen(true);
+    setActivityName(winner.activity);
+    setCost(winner.cost);
+    setStayingIn(winner.stayingIn);
+    setDatesAvailable(winner.datesAvailable);
+    setWeekendGetaway(winner.weekendGetaway);
+    setNeighborhood(winner.neighborhood);
+    setIsFoodOption(winner.isFoodOption);
+    sethasDrinks(winner.hasDrinks);
+    setHaveBeen(winner.haveBeen);
+    // what the fuck
+    // alert(`Activity: ${winner.activity} Cost: ${winner.cost}`);
   }
 
   return (
@@ -39,6 +66,19 @@ export default function Bored() {
         >
           Choose an activity
         </button>
+        <Modal
+          isOpen={isOpen}
+          close={close}
+          activityName={activityName}
+          cost={cost}
+          stayingIn={stayingIn}
+          datesAvailable={datesAvailable}
+          weekendGetaway={weekendGetaway}
+          neighborhood={neighborhood}
+          isFoodOption={isFoodOption}
+          hasDrinks={hasDrinks}
+          haveBeen={haveBeen}
+        />
       </div>
     </div>
   );
