@@ -1,0 +1,8 @@
+[
+  { "activity": "Rent a Movie", "cost": 5, "stayingIn": true },
+  { "activity": "Go out to the movies", "cost": 40, "stayingIn": false },
+  { "activity": "Order from a new restaurant", "cost": 50, "stayingIn": true },
+  { "activity": "Go to the park", "cost": 0, "stayingIn": false },
+  { "activity": "Have a picnic", "cost": 0, "stayingIn": false },
+  { "activity": "Play Monopoly", "cost": 0, "stayingIn": true }
+]
