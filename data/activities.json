@@ -211,7 +211,7 @@
   {
     "activity": "Lou's Nashville Chicken",
     "cost": 50,
-    "stayingIn": false,
+    "stayingIn": true,
     "datesAvailable": "year round",
     "weekendGetaway": false,
     "neighborhood": "Capitol Hill",

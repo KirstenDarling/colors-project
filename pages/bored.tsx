@@ -65,6 +65,24 @@ export default function Bored() {
     alert(newWinner.activity);
   }
 
+  function pickAStayingHomeActivity() {
+    var stayingInOnly = activities.filter((obj) => {
+      return obj.stayingIn === true;
+    });
+    var stayingInWinner =
+      stayingInOnly[Math.floor(Math.random() * stayingInOnly.length)];
+    alert(stayingInWinner.activity);
+  }
+
+  function pickAGoingOutActivity() {
+    var goingOutOnly = activities.filter((obj) => {
+      return obj.stayingIn === false;
+    });
+    var goingOutWinner =
+      goingOutOnly[Math.floor(Math.random() * goingOutOnly.length)];
+    alert(goingOutWinner.activity);
+  }
+
   return (
     <div>
       <Head>
@@ -103,6 +121,18 @@ export default function Bored() {
           onClick={pickSomethingNew}
         >
           Try something new
+        </button>
+        <button
+          style={{ width: "20%", marginTop: "5%" }}
+          onClick={pickAStayingHomeActivity}
+        >
+          Let&apos;s stay in
+        </button>
+        <button
+          style={{ width: "20%", marginTop: "5%" }}
+          onClick={pickAGoingOutActivity}
+        >
+          Let&apos;s go out
         </button>
         <Modal
           isOpen={isOpen}
