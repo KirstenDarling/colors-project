@@ -8,7 +8,7 @@
     "neighborhood": "",
     "isFoodOption": false,
     "hasDrinks": true,
-    "haveBeen": false
+    "haveBeen": true
   },
   {
     "activity": "Go out to the movies",
@@ -19,7 +19,7 @@
     "neighborhood": "",
     "isFoodOption": false,
     "hasDrinks": true,
-    "haveBeen": false
+    "haveBeen": true
   },
   {
     "activity": "Order from a new restaurant",
@@ -41,7 +41,7 @@
     "neighborhood": "",
     "isFoodOption": false,
     "hasDrinks": true,
-    "haveBeen": false
+    "haveBeen": true
   },
   {
     "activity": "Have a picnic",
@@ -74,7 +74,7 @@
     "neighborhood": "",
     "isFoodOption": false,
     "hasDrinks": true,
-    "haveBeen": false
+    "haveBeen": true
   },
   {
     "activity": "German ChristKindlMarket in Civic Center",
@@ -85,7 +85,7 @@
     "neighborhood": "",
     "isFoodOption": false,
     "hasDrinks": true,
-    "haveBeen": false
+    "haveBeen": true
   },
   {
     "activity": "Denver Zoo Lights",
@@ -217,7 +217,7 @@
     "neighborhood": "Capitol Hill",
     "isFoodOption": true,
     "hasDrinks": true,
-    "haveBeen": false
+    "haveBeen": true
   },
   {
     "activity": "Logan Street Restaurant",
@@ -228,7 +228,7 @@
     "neighborhood": "Capitol Hill",
     "isFoodOption": true,
     "hasDrinks": true,
-    "haveBeen": false
+    "haveBeen": true
   },
   {
     "activity": "Fainting Goat",
@@ -239,7 +239,7 @@
     "neighborhood": "Capitol Hill",
     "isFoodOption": true,
     "hasDrinks": true,
-    "haveBeen": false
+    "haveBeen": true
   },
   {
     "activity": "Stoney's",
@@ -250,7 +250,7 @@
     "neighborhood": "Capitol Hill",
     "isFoodOption": true,
     "hasDrinks": true,
-    "haveBeen": false
+    "haveBeen": true
   },
   {
     "activity": "Cheeseman Park",
@@ -261,7 +261,7 @@
     "neighborhood": "Capitol Hill",
     "isFoodOption": false,
     "hasDrinks": false,
-    "haveBeen": false
+    "haveBeen": true
   },
   {
     "activity": "Botanical Gardens",
@@ -272,7 +272,7 @@
     "neighborhood": "Capitol Hill",
     "isFoodOption": false,
     "hasDrinks": true,
-    "haveBeen": false
+    "haveBeen": true
   },
   {
     "activity": "VooDoo Donuts",
@@ -283,7 +283,7 @@
     "neighborhood": "Colfax",
     "isFoodOption": true,
     "hasDrinks": true,
-    "haveBeen": false
+    "haveBeen": true
   },
   {
     "activity": "A & W Rootbeer",
@@ -294,7 +294,7 @@
     "neighborhood": "Glendale",
     "isFoodOption": true,
     "hasDrinks": true,
-    "haveBeen": false
+    "haveBeen": true
   },
   {
     "activity": "Tarantuala Billards",
@@ -305,7 +305,7 @@
     "neighborhood": "Downtown",
     "isFoodOption": false,
     "hasDrinks": true,
-    "haveBeen": false
+    "haveBeen": true
   },
   {
     "activity": "16th Street Mall/Pavillions",
@@ -316,7 +316,7 @@
     "neighborhood": "Downtown",
     "isFoodOption": false,
     "hasDrinks": true,
-    "haveBeen": false
+    "haveBeen": true
   },
   {
     "activity": "Movies at The Pavillions",
@@ -327,7 +327,7 @@
     "neighborhood": "Downtown",
     "isFoodOption": false,
     "hasDrinks": true,
-    "haveBeen": false
+    "haveBeen": true
   },
   {
     "activity": "Congress Park Tap Room",
@@ -338,7 +338,7 @@
     "neighborhood": "Hale",
     "isFoodOption": true,
     "hasDrinks": true,
-    "haveBeen": false
+    "haveBeen": true
   },
   {
     "activity": "City Park",
@@ -349,7 +349,7 @@
     "neighborhood": "Hale",
     "isFoodOption": false,
     "hasDrinks": true,
-    "haveBeen": false
+    "haveBeen": true
   },
   {
     "activity": "Denver Zoo",
@@ -360,7 +360,7 @@
     "neighborhood": "Hale",
     "isFoodOption": false,
     "hasDrinks": true,
-    "haveBeen": false
+    "haveBeen": true
   },
   {
     "activity": "Denver Museum of Nature & Science",
@@ -371,7 +371,7 @@
     "neighborhood": "Hale",
     "isFoodOption": false,
     "hasDrinks": true,
-    "haveBeen": false
+    "haveBeen": true
   },
   {
     "activity": "MacDonough's",
@@ -382,7 +382,7 @@
     "neighborhood": "Aurora",
     "isFoodOption": true,
     "hasDrinks": true,
-    "haveBeen": false
+    "haveBeen": true
   },
   {
     "activity": "Dragon Boat",
@@ -393,7 +393,7 @@
     "neighborhood": "Aurora",
     "isFoodOption": true,
     "hasDrinks": true,
-    "haveBeen": false
+    "haveBeen": true
   },
   {
     "activity": "Babi Yari Park",
@@ -404,7 +404,7 @@
     "neighborhood": "Aurora",
     "isFoodOption": false,
     "hasDrinks": true,
-    "haveBeen": false
+    "haveBeen": true
   },
   {
     "activity": "Lion's Liar (Punk Rock)",
@@ -437,7 +437,7 @@
     "neighborhood": "Aurora",
     "isFoodOption": false,
     "hasDrinks": true,
-    "haveBeen": false
+    "haveBeen": true
   },
   {
     "activity": "Cherry Creek Mall",
@@ -448,7 +448,7 @@
     "neighborhood": "Aurora",
     "isFoodOption": true,
     "hasDrinks": true,
-    "haveBeen": false
+    "haveBeen": true
   },
   {
     "activity": "Go on a Hike",
@@ -492,7 +492,7 @@
     "neighborhood": "Aurora",
     "isFoodOption": false,
     "hasDrinks": true,
-    "haveBeen": false
+    "haveBeen": true
   },
   {
     "activity": "Larimer Square",
@@ -525,7 +525,7 @@
     "neighborhood": "Aurora",
     "isFoodOption": false,
     "hasDrinks": true,
-    "haveBeen": false
+    "haveBeen": true
   },
   {
     "activity": "The Goldmine",

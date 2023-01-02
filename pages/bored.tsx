@@ -57,6 +57,14 @@ export default function Bored() {
     alert(cheapWinner.activity);
   }
 
+  function pickSomethingNew() {
+    var newOnly = activities.filter((obj) => {
+      return obj.haveBeen === false;
+    });
+    var newWinner = newOnly[Math.floor(Math.random() * newOnly.length)];
+    alert(newWinner.activity);
+  }
+
   return (
     <div>
       <Head>
@@ -89,6 +97,12 @@ export default function Bored() {
           onClick={pickCheapStuff}
         >
           Choose a cheap activity
+        </button>
+        <button
+          style={{ width: "20%", marginTop: "5%" }}
+          onClick={pickSomethingNew}
+        >
+          Try something new
         </button>
         <Modal
           isOpen={isOpen}
