@@ -270,7 +270,7 @@
     "datesAvailable": "year round",
     "weekendGetaway": false,
     "neighborhood": "Capitol Hill",
-    "isFoodOption": true,
+    "isFoodOption": false,
     "hasDrinks": true,
     "haveBeen": false
   },
@@ -303,7 +303,7 @@
     "datesAvailable": "year round",
     "weekendGetaway": false,
     "neighborhood": "Downtown",
-    "isFoodOption": true,
+    "isFoodOption": false,
     "hasDrinks": true,
     "haveBeen": false
   },
@@ -314,7 +314,7 @@
     "datesAvailable": "year round",
     "weekendGetaway": false,
     "neighborhood": "Downtown",
-    "isFoodOption": true,
+    "isFoodOption": false,
     "hasDrinks": true,
     "haveBeen": false
   },
@@ -325,7 +325,7 @@
     "datesAvailable": "year round",
     "weekendGetaway": false,
     "neighborhood": "Downtown",
-    "isFoodOption": true,
+    "isFoodOption": false,
     "hasDrinks": true,
     "haveBeen": false
   },
@@ -347,7 +347,7 @@
     "datesAvailable": "year round",
     "weekendGetaway": false,
     "neighborhood": "Hale",
-    "isFoodOption": true,
+    "isFoodOption": false,
     "hasDrinks": true,
     "haveBeen": false
   },
@@ -358,7 +358,7 @@
     "datesAvailable": "year round",
     "weekendGetaway": false,
     "neighborhood": "Hale",
-    "isFoodOption": true,
+    "isFoodOption": false,
     "hasDrinks": true,
     "haveBeen": false
   },
@@ -369,7 +369,7 @@
     "datesAvailable": "year round",
     "weekendGetaway": false,
     "neighborhood": "Hale",
-    "isFoodOption": true,
+    "isFoodOption": false,
     "hasDrinks": true,
     "haveBeen": false
   },
@@ -402,7 +402,7 @@
     "datesAvailable": "year round",
     "weekendGetaway": false,
     "neighborhood": "Aurora",
-    "isFoodOption": true,
+    "isFoodOption": false,
     "hasDrinks": true,
     "haveBeen": false
   },
@@ -413,7 +413,7 @@
     "datesAvailable": "year round",
     "weekendGetaway": false,
     "neighborhood": "Aurora",
-    "isFoodOption": true,
+    "isFoodOption": false,
     "hasDrinks": true,
     "haveBeen": false
   },
@@ -424,7 +424,7 @@
     "datesAvailable": "year round",
     "weekendGetaway": false,
     "neighborhood": "Aurora",
-    "isFoodOption": true,
+    "isFoodOption": false,
     "hasDrinks": true,
     "haveBeen": false
   },
@@ -435,7 +435,7 @@
     "datesAvailable": "year round",
     "weekendGetaway": false,
     "neighborhood": "Aurora",
-    "isFoodOption": true,
+    "isFoodOption": false,
     "hasDrinks": true,
     "haveBeen": false
   },
@@ -457,7 +457,7 @@
     "datesAvailable": "year round",
     "weekendGetaway": false,
     "neighborhood": "Aurora",
-    "isFoodOption": true,
+    "isFoodOption": false,
     "hasDrinks": true,
     "haveBeen": false
   },
@@ -479,7 +479,7 @@
     "datesAvailable": "year round",
     "weekendGetaway": false,
     "neighborhood": "Aurora",
-    "isFoodOption": true,
+    "isFoodOption": false,
     "hasDrinks": true,
     "haveBeen": false
   },
@@ -490,7 +490,7 @@
     "datesAvailable": "year round",
     "weekendGetaway": false,
     "neighborhood": "Aurora",
-    "isFoodOption": true,
+    "isFoodOption": false,
     "hasDrinks": true,
     "haveBeen": false
   },
@@ -501,7 +501,7 @@
     "datesAvailable": "year round",
     "weekendGetaway": false,
     "neighborhood": "Aurora",
-    "isFoodOption": true,
+    "isFoodOption": false,
     "hasDrinks": true,
     "haveBeen": false
   },
@@ -523,7 +523,7 @@
     "datesAvailable": "year round",
     "weekendGetaway": false,
     "neighborhood": "Aurora",
-    "isFoodOption": true,
+    "isFoodOption": false,
     "hasDrinks": true,
     "haveBeen": false
   },
@@ -534,7 +534,7 @@
     "datesAvailable": "year round",
     "weekendGetaway": false,
     "neighborhood": "Aurora",
-    "isFoodOption": true,
+    "isFoodOption": false,
     "hasDrinks": true,
     "haveBeen": false
   },

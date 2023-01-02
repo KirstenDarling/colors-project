@@ -22,7 +22,7 @@ export default function Bored() {
     setIsOpen(false);
   }
 
-  function pickOne() {
+  function pickActivity() {
     console.log(activities);
     var winner = activities[Math.floor(Math.random() * activities.length)];
     console.log(winner);
@@ -41,6 +41,14 @@ export default function Bored() {
     // alert(`Activity: ${winner.activity} Cost: ${winner.cost}`);
   }
 
+  function pickFood() {
+    var foodsOnly = activities.filter((obj) => {
+      return obj.isFoodOption === true;
+    });
+    var foodWinner = foodsOnly[Math.floor(Math.random() * foodsOnly.length)];
+    alert(foodWinner.activity);
+  }
+
   return (
     <div>
       <Head>
@@ -51,20 +59,22 @@ export default function Bored() {
       {/* {activities.map((activity) => (
         <h1 key={activity.activity}>{activity.activity}</h1>
       ))} */}
-      <div className="container" style={{ width: "100%", display: "flex" }}>
-        {/* <button
-          className=""
-          style={{ margin: "auto", marginTop: "15%" }}
-          onClick={setCost}
-        >
-          Click if you are poor
-        </button> */}
-        <button
-          className=""
-          style={{ margin: "auto", marginTop: "25%" }}
-          onClick={pickOne}
-        >
+      <div
+        className="container"
+        style={{
+          width: "100%",
+          height: "100vh",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <button className="" onClick={pickActivity} style={{ width: "20%" }}>
           Choose an activity
+        </button>
+        <button style={{ width: "20%", marginTop: "5%" }} onClick={pickFood}>
+          Choose some food
         </button>
         <Modal
           isOpen={isOpen}
