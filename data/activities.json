@@ -89,7 +89,7 @@
   },
   {
     "activity": "Denver Zoo Lights",
-    "cost": 0,
+    "cost": 999,
     "stayingIn": false,
     "datesAvailable": "December",
     "weekendGetaway": false,
@@ -100,7 +100,7 @@
   },
   {
     "activity": "Denver Art Week",
-    "cost": 0,
+    "cost": 999,
     "stayingIn": false,
     "datesAvailable": "",
     "weekendGetaway": false,
@@ -111,7 +111,7 @@
   },
   {
     "activity": "Denver Film Festival",
-    "cost": 0,
+    "cost": 999,
     "stayingIn": false,
     "datesAvailable": "December",
     "weekendGetaway": false,
@@ -122,7 +122,7 @@
   },
   {
     "activity": "Apollo at Denver Museum of Nature & Science",
-    "cost": 0,
+    "cost": 5,
     "stayingIn": false,
     "datesAvailable": "by 1/22",
     "weekendGetaway": false,
@@ -133,7 +133,7 @@
   },
   {
     "activity": "Saints, Sinners, Lovers, & Fools at Denver Art Museum",
-    "cost": 0,
+    "cost": 999,
     "stayingIn": false,
     "datesAvailable": "by 1/22",
     "weekendGetaway": false,
@@ -144,7 +144,7 @@
   },
   {
     "activity": "Wine Walks at Southlands",
-    "cost": 0,
+    "cost": 999,
     "stayingIn": false,
     "datesAvailable": "summer",
     "weekendGetaway": false,
@@ -155,7 +155,7 @@
   },
   {
     "activity": "Iceskate at The Pond in Southlands",
-    "cost": 0,
+    "cost": 12,
     "stayingIn": false,
     "datesAvailable": "December through February",
     "weekendGetaway": false,
@@ -166,7 +166,7 @@
   },
   {
     "activity": "Cottonwood Hot Springs Inn & Spa",
-    "cost": 0,
+    "cost": 999,
     "stayingIn": false,
     "datesAvailable": "December",
     "weekendGetaway": true,
@@ -177,7 +177,7 @@
   },
   {
     "activity": "Salida Hot Springs Aquatic Center",
-    "cost": 0,
+    "cost": 999,
     "stayingIn": false,
     "datesAvailable": "December",
     "weekendGetaway": true,
@@ -188,7 +188,7 @@
   },
   {
     "activity": "Mount Princeton Hot Springs Resort",
-    "cost": 0,
+    "cost": 999,
     "stayingIn": false,
     "datesAvailable": "December",
     "weekendGetaway": true,
@@ -199,7 +199,7 @@
   },
   {
     "activity": "Buena Vista & Salida Monarch Scenic Tram",
-    "cost": 0,
+    "cost": 999,
     "stayingIn": false,
     "datesAvailable": "December",
     "weekendGetaway": true,
@@ -254,7 +254,7 @@
   },
   {
     "activity": "Cheeseman Park",
-    "cost": 50,
+    "cost": 0,
     "stayingIn": false,
     "datesAvailable": "year round",
     "weekendGetaway": false,
@@ -276,7 +276,7 @@
   },
   {
     "activity": "VooDoo Donuts",
-    "cost": 50,
+    "cost": 20,
     "stayingIn": false,
     "datesAvailable": "year round",
     "weekendGetaway": false,
@@ -342,7 +342,7 @@
   },
   {
     "activity": "City Park",
-    "cost": 50,
+    "cost": 0,
     "stayingIn": false,
     "datesAvailable": "year round",
     "weekendGetaway": false,
@@ -397,7 +397,7 @@
   },
   {
     "activity": "Babi Yari Park",
-    "cost": 50,
+    "cost": 0,
     "stayingIn": false,
     "datesAvailable": "year round",
     "weekendGetaway": false,
@@ -419,7 +419,7 @@
   },
   {
     "activity": "Denver Public Library",
-    "cost": 50,
+    "cost": 0,
     "stayingIn": false,
     "datesAvailable": "year round",
     "weekendGetaway": false,
@@ -430,7 +430,7 @@
   },
   {
     "activity": "Aurora Public Library",
-    "cost": 50,
+    "cost": 0,
     "stayingIn": false,
     "datesAvailable": "year round",
     "weekendGetaway": false,
@@ -452,7 +452,7 @@
   },
   {
     "activity": "Go on a Hike",
-    "cost": 50,
+    "cost": 0,
     "stayingIn": false,
     "datesAvailable": "year round",
     "weekendGetaway": false,
@@ -474,7 +474,7 @@
   },
   {
     "activity": "Go checkout some street art, murals, or maybe the Blue Bear",
-    "cost": 50,
+    "cost": 0,
     "stayingIn": false,
     "datesAvailable": "year round",
     "weekendGetaway": false,
@@ -485,7 +485,7 @@
   },
   {
     "activity": "Visit the Mile High step on Capitol Hill",
-    "cost": 50,
+    "cost": 0,
     "stayingIn": false,
     "datesAvailable": "year round",
     "weekendGetaway": false,
