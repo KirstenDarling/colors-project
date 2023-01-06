@@ -6,7 +6,7 @@ interface Props {
   isOpen: any;
   close: any;
   activityName: any;
-  cost: any;
+  costPerPerson: any;
   stayingIn: boolean;
   datesAvailable: any;
   weekendGetaway: any;
@@ -14,13 +14,15 @@ interface Props {
   isFoodOption: any;
   hasDrinks: any;
   haveBeen: any;
+  description: string;
+  imageUrl: string;
 }
 
 const Modal = ({
   isOpen,
   close,
   activityName,
-  cost,
+  costPerPerson,
   stayingIn,
   datesAvailable,
   weekendGetaway,
@@ -28,6 +30,8 @@ const Modal = ({
   isFoodOption,
   hasDrinks,
   haveBeen,
+  description,
+  imageUrl,
 }: Props) => {
   return (
     <>
@@ -41,8 +45,12 @@ const Modal = ({
           <button className={styles.close} onClick={close}>
             &times;
           </button>
-          <p>{activityName}</p>
-          <p>{`Cost: ${cost}`}</p>
+          <p className={styles.activityTitle}>{activityName}</p>
+          {costPerPerson && costPerPerson !== 999 ? (
+            <p>{`Cost Per Person: $${costPerPerson}`}</p>
+          ) : (
+            <p>{`Cost Per Person: UNKNOWN`}</p>
+          )}
           <p>{`Staying In: ${stayingIn}`}</p>
           <p>{`Dates Available: ${datesAvailable}`}</p>
           <p>{`Weekend Getaway: ${weekendGetaway}`}</p>
@@ -50,6 +58,8 @@ const Modal = ({
           <p>{`Is a food option: ${isFoodOption}`}</p>
           <p>{`Has Drinks: ${hasDrinks}`}</p>
           <p>{`Have Been: ${haveBeen}`}</p>
+          {description && <p>{`Description: ${description}`}</p>}
+          {imageUrl && <p>{imageUrl}</p>}
         </div>
       </div>
     </>

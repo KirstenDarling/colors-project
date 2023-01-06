@@ -9,7 +9,7 @@ import activities from "../data/activities.json";
 export default function Bored() {
   const [isOpen, setIsOpen] = useState(false);
   const [activityName, setActivityName] = useState("Insert Activity Name Here");
-  const [cost, setCost] = useState(0);
+  const [costPerPerson, setCostPerPerson] = useState(0);
   const [stayingIn, setStayingIn] = useState(true);
   const [datesAvailable, setDatesAvailable] = useState("year round");
   const [weekendGetaway, setWeekendGetaway] = useState(true);
@@ -17,6 +17,8 @@ export default function Bored() {
   const [isFoodOption, setIsFoodOption] = useState(true);
   const [hasDrinks, sethasDrinks] = useState(true);
   const [haveBeen, setHaveBeen] = useState(false);
+  const [description, setDescription] = useState("");
+  const [imageUrl, setImageUrl] = useState("");
 
   function close() {
     setIsOpen(false);
@@ -29,7 +31,7 @@ export default function Bored() {
     console.log(winner.activity);
     setIsOpen(true);
     setActivityName(winner.activity);
-    setCost(winner.cost);
+    setCostPerPerson(winner.costPerPerson);
     setStayingIn(winner.stayingIn);
     setDatesAvailable(winner.datesAvailable);
     setWeekendGetaway(winner.weekendGetaway);
@@ -37,8 +39,8 @@ export default function Bored() {
     setIsFoodOption(winner.isFoodOption);
     sethasDrinks(winner.hasDrinks);
     setHaveBeen(winner.haveBeen);
-    // what the fuck
-    // alert(`Activity: ${winner.activity} Cost: ${winner.cost}`);
+    setDescription(winner.description);
+    setImageUrl(winner.imageUrl);
   }
 
   function pickFood() {
@@ -51,7 +53,7 @@ export default function Bored() {
 
   function pickCheapStuff() {
     var cheapOnly = activities.filter((obj) => {
-      return obj.cost === 0;
+      return obj.costPerPerson === 0;
     });
     var cheapWinner = cheapOnly[Math.floor(Math.random() * cheapOnly.length)];
     alert(cheapWinner.activity);
@@ -138,7 +140,7 @@ export default function Bored() {
           isOpen={isOpen}
           close={close}
           activityName={activityName}
-          cost={cost}
+          costPerPerson={costPerPerson}
           stayingIn={stayingIn}
           datesAvailable={datesAvailable}
           weekendGetaway={weekendGetaway}
@@ -146,6 +148,8 @@ export default function Bored() {
           isFoodOption={isFoodOption}
           hasDrinks={hasDrinks}
           haveBeen={haveBeen}
+          description={description}
+          imageUrl={imageUrl}
         />
       </div>
     </div>
