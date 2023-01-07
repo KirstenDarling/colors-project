@@ -61,8 +61,8 @@ const Modal = ({
               <Image
                 src={imageUrl}
                 alt={imageUrl}
-                height={imageHeight}
-                width={imageWidth}
+                height={imageHeight * 2}
+                width={imageWidth * 2}
               />
             </div>
           )}
