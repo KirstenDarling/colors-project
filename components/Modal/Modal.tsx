@@ -58,7 +58,7 @@ const Modal = ({
               className={""}
               style={{ display: "flex", justifyContent: "center" }}
             >
-              <Image
+              <img
                 src={imageUrl}
                 alt={imageUrl}
                 height={imageHeight}
