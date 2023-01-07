@@ -1,3 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable jsx-a11y/alt-text */
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import ReactDOM from "react-dom";
 import styles from "./Modal.module.css";
@@ -6,7 +9,7 @@ interface Props {
   isOpen: any;
   close: any;
   activityName: any;
-  cost: any;
+  costPerPerson: any;
   stayingIn: boolean;
   datesAvailable: any;
   weekendGetaway: any;
@@ -14,13 +17,17 @@ interface Props {
   isFoodOption: any;
   hasDrinks: any;
   haveBeen: any;
+  description: string;
+  imageUrl: string;
+  imageHeight: number;
+  imageWidth: number;
 }
 
 const Modal = ({
   isOpen,
   close,
   activityName,
-  cost,
+  costPerPerson,
   stayingIn,
   datesAvailable,
   weekendGetaway,
@@ -28,6 +35,10 @@ const Modal = ({
   isFoodOption,
   hasDrinks,
   haveBeen,
+  description,
+  imageUrl,
+  imageHeight,
+  imageWidth,
 }: Props) => {
   return (
     <>
@@ -41,8 +52,25 @@ const Modal = ({
           <button className={styles.close} onClick={close}>
             &times;
           </button>
-          <p>{activityName}</p>
-          <p>{`Cost: ${cost}`}</p>
+          <p className={styles.activityTitle}>{activityName}</p>
+          {imageUrl && (
+            <div
+              className={""}
+              style={{ display: "flex", justifyContent: "center" }}
+            >
+              <Image
+                src={imageUrl}
+                alt={imageUrl}
+                height={imageHeight}
+                width={imageWidth}
+              />
+            </div>
+          )}
+          {costPerPerson && costPerPerson !== 999 ? (
+            <p>{`Cost Per Person: $${costPerPerson}`}</p>
+          ) : (
+            <p>{`Cost Per Person: UNKNOWN`}</p>
+          )}
           <p>{`Staying In: ${stayingIn}`}</p>
           <p>{`Dates Available: ${datesAvailable}`}</p>
           <p>{`Weekend Getaway: ${weekendGetaway}`}</p>
@@ -50,6 +78,7 @@ const Modal = ({
           <p>{`Is a food option: ${isFoodOption}`}</p>
           <p>{`Has Drinks: ${hasDrinks}`}</p>
           <p>{`Have Been: ${haveBeen}`}</p>
+          {description && <p>{`Description: ${description}`}</p>}
         </div>
       </div>
     </>

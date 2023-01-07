@@ -40,3 +40,7 @@
 .visible {
   display: block;
 }
+
+.activityTitle {
+  text-align: center;
+}
