@@ -59,10 +59,10 @@ const Modal = ({
               style={{ display: "flex", justifyContent: "center" }}
             >
               <Image
-                src={imageUrl}
+                src="/apollo.png"
                 alt={imageUrl}
-                height={imageHeight * 2}
-                width={imageWidth * 2}
+                height={569}
+                width={870}
               />
             </div>
           )}
