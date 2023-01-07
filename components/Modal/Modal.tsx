@@ -58,11 +58,12 @@ const Modal = ({
               className={""}
               style={{ display: "flex", justifyContent: "center" }}
             >
-              <Image
+              <img
                 src={imageUrl}
                 alt={imageUrl}
                 height={imageHeight}
                 width={imageWidth}
+                style={{ width: imageWidth, height: imageHeight }}
               />
             </div>
           )}
