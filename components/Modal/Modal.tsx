@@ -58,7 +58,12 @@ const Modal = ({
               className={""}
               style={{ display: "flex", justifyContent: "center" }}
             >
-              <Image src="/apollo.png" alt="apollo" height={569} width={870} />
+              <Image
+                src={imageUrl}
+                alt={imageUrl}
+                height={imageHeight}
+                width={imageWidth}
+              />
             </div>
           )}
           {costPerPerson && costPerPerson !== 999 ? (
