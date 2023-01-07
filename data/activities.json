@@ -1,7 +1,7 @@
 [
   {
     "activity": "Rent a Movie",
-    "imageUrl": "/redbox-rental.jpg",
+    "imageUrl": "redbox-rental.jpg",
     "imageHeight": 383,
     "imageWidth": 512,
     "costPerPerson": 5,
@@ -17,7 +17,7 @@
   },
   {
     "activity": "Go out to the movies",
-    "imageUrl": "/united-artist-theater.jpg",
+    "imageUrl": "united-artist-theater.jpg",
     "imageHeight": 471,
     "imageWidth": 751,
     "costPerPerson": 20,
@@ -33,7 +33,7 @@
   },
   {
     "activity": "Order from a new restaurant",
-    "imageUrl": "/doordash.webp",
+    "imageUrl": "doordash.webp",
     "imageHeight": 400,
     "imageWidth": 600,
     "costPerPerson": 25,
@@ -49,7 +49,7 @@
   },
   {
     "activity": "Have a picnic",
-    "imageUrl": "/picnic.jpg",
+    "imageUrl": "picnic.jpg",
     "imageHeight": 466,
     "imageWidth": 750,
     "costPerPerson": 0,
@@ -65,7 +65,7 @@
   },
   {
     "activity": "Play Monopoly",
-    "imageUrl": "/monopoly-app.webp",
+    "imageUrl": "monopoly-app.webp",
     "imageHeight": 296,
     "imageWidth": 526,
     "costPerPerson": 0,
@@ -81,7 +81,7 @@
   },
   {
     "activity": "Civic Center Christmas Tree & Lights",
-    "imageUrl": "/mile-high-tree.webp",
+    "imageUrl": "mile-high-tree.webp",
     "imageHeight": 412,
     "imageWidth": 620,
     "costPerPerson": 0,
@@ -97,7 +97,7 @@
   },
   {
     "activity": "German ChristKindlMarket in Civic Center",
-    "imageUrl": "/denver-christkindlmarket.jpeg",
+    "imageUrl": "denver-christkindlmarket.jpeg",
     "imageHeight": 400,
     "imageWidth": 800,
     "costPerPerson": 0,
@@ -113,7 +113,7 @@
   },
   {
     "activity": "Denver Zoo Lights",
-    "imageUrl": "/zoo-lights.jpg",
+    "imageUrl": "zoo-lights.jpg",
     "imageHeight": 320,
     "imageWidth": 640,
     "costPerPerson": 999,
@@ -129,7 +129,7 @@
   },
   {
     "activity": "Denver Art Week",
-    "imageUrl": "/denver-arts-week.jpg",
+    "imageUrl": "denver-arts-week.jpg",
     "imageHeight": 640,
     "imageWidth": 640,
     "costPerPerson": 999,
@@ -145,7 +145,7 @@
   },
   {
     "activity": "Denver Film Festival",
-    "imageUrl": "/denver-film-festival.jpeg",
+    "imageUrl": "denver-film-festival.jpeg",
     "imageHeight": 400,
     "imageWidth": 800,
     "costPerPerson": 999,
@@ -161,7 +161,7 @@
   },
   {
     "activity": "Apollo at Denver Museum of Nature & Science",
-    "imageUrl": "/apollo.png",
+    "imageUrl": "apollo.png",
     "imageHeight": 285,
     "imageWidth": 435,
     "costPerPerson": 5,
@@ -177,7 +177,7 @@
   },
   {
     "activity": "Saints, Sinners, Lovers, & Fools at Denver Art Museum",
-    "imageUrl": "/saints-sinners.jpg",
+    "imageUrl": "saints-sinners.jpg",
     "imageHeight": 341,
     "imageWidth": 512,
     "costPerPerson": 999,
@@ -193,7 +193,7 @@
   },
   {
     "activity": "Wine Walks at Southlands",
-    "imageUrl": "/wine-walks.jpg",
+    "imageUrl": "wine-walks.jpg",
     "imageHeight": 325,
     "imageWidth": 600,
     "costPerPerson": 999,
@@ -209,7 +209,7 @@
   },
   {
     "activity": "Iceskate at The Pond in Southlands",
-    "imageUrl": "/the-pond-at-southlands.jpg",
+    "imageUrl": "the-pond-at-southlands.jpg",
     "imageHeight": 427,
     "imageWidth": 640,
     "costPerPerson": 12,
@@ -225,7 +225,7 @@
   },
   {
     "activity": "Cottonwood Hot Springs Inn & Spa",
-    "imageUrl": "/cotton-wood-hot-springs.jpg",
+    "imageUrl": "cotton-wood-hot-springs.jpg",
     "imageHeight": 800,
     "imageWidth": 800,
     "costPerPerson": 999,
@@ -241,7 +241,7 @@
   },
   {
     "activity": "Salida Hot Springs Aquatic Center",
-    "imageUrl": "/salida-hot-springs.jpg",
+    "imageUrl": "salida-hot-springs.jpg",
     "imageHeight": 300,
     "imageWidth": 400,
     "costPerPerson": 999,
@@ -257,7 +257,7 @@
   },
   {
     "activity": "Mount Princeton Hot Springs Resort",
-    "imageUrl": "/mount-princeton-hot-springs.jpg",
+    "imageUrl": "mount-princeton-hot-springs.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -273,7 +273,7 @@
   },
   {
     "activity": "Buena Vista & Salida Monarch Scenic Tram",
-    "imageUrl": "/monarch-crest-tram.jpg",
+    "imageUrl": "monarch-crest-tram.jpg",
     "imageHeight": 423,
     "imageWidth": 640,
     "costPerPerson": 999,
@@ -289,7 +289,7 @@
   },
   {
     "activity": "Lou's Nashville Chicken",
-    "imageUrl": "/lous-food-bar.jpg",
+    "imageUrl": "lous-food-bar.jpg",
     "imageHeight": 168,
     "imageWidth": 300,
     "costPerPerson": 20,
@@ -305,7 +305,7 @@
   },
   {
     "activity": "Logan Street Restaurant",
-    "imageUrl": "/logan-street.jpg",
+    "imageUrl": "logan-street.jpg",
     "imageHeight": 533,
     "imageWidth": 800,
     "costPerPerson": 25,
@@ -321,7 +321,7 @@
   },
   {
     "activity": "Fainting Goat",
-    "imageUrl": "/fainting-goat.jpg",
+    "imageUrl": "fainting-goat.jpg",
     "imageHeight": 250,
     "imageWidth": 500,
     "costPerPerson": 25,
@@ -337,7 +337,7 @@
   },
   {
     "activity": "Stoney's",
-    "imageUrl": "/stoneys.webp",
+    "imageUrl": "stoneys.webp",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 25,
@@ -353,7 +353,7 @@
   },
   {
     "activity": "Cheeseman Park",
-    "imageUrl": "/cheeseman.jpg",
+    "imageUrl": "cheeseman.jpg",
     "imageHeight": 375,
     "imageWidth": 500,
     "costPerPerson": 0,
@@ -369,7 +369,7 @@
   },
   {
     "activity": "Botanical Gardens",
-    "imageUrl": "/botanical-gardens.jpg",
+    "imageUrl": "botanical-gardens.jpg",
     "imageHeight": 426,
     "imageWidth": 640,
     "costPerPerson": 999,
@@ -385,7 +385,7 @@
   },
   {
     "activity": "VooDoo Donuts",
-    "imageUrl": "/voodoo-donuts.jpg",
+    "imageUrl": "voodoo-donuts.jpg",
     "imageHeight": 194,
     "imageWidth": 259,
     "costPerPerson": 10,
@@ -401,7 +401,7 @@
   },
   {
     "activity": "A & W Rootbeer",
-    "imageUrl": "/a-and-w.jpg",
+    "imageUrl": "a-and-w.jpg",
     "imageHeight": 254,
     "imageWidth": 381,
     "costPerPerson": 10,
@@ -417,7 +417,7 @@
   },
   {
     "activity": "Tarantuala Billards",
-    "imageUrl": "/tarantula.jpg",
+    "imageUrl": "tarantula.jpg",
     "imageHeight": 320,
     "imageWidth": 480,
     "costPerPerson": 25,
@@ -433,7 +433,7 @@
   },
   {
     "activity": "16th Street Mall/Pavillions",
-    "imageUrl": "/16th-street-mall.jpg",
+    "imageUrl": "16th-street-mall.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 25,
@@ -449,7 +449,7 @@
   },
   {
     "activity": "Movies at The Pavilions",
-    "imageUrl": "/united-artist-theater.jpg",
+    "imageUrl": "united-artist-theater.jpg",
     "imageHeight": 478,
     "imageWidth": 751,
     "costPerPerson": 25,
@@ -465,7 +465,7 @@
   },
   {
     "activity": "Congress Park Tap Room",
-    "imageUrl": "/congress-park-taproom.jpg",
+    "imageUrl": "congress-park-taproom.jpg",
     "imageHeight": 333,
     "imageWidth": 500,
     "costPerPerson": 25,
@@ -481,7 +481,7 @@
   },
   {
     "activity": "City Park",
-    "imageUrl": "/city-park.webp",
+    "imageUrl": "city-park.webp",
     "imageHeight": 360,
     "imageWidth": 640,
     "costPerPerson": 0,
@@ -497,7 +497,7 @@
   },
   {
     "activity": "Denver Zoo",
-    "imageUrl": "/denver-zoo.jpg",
+    "imageUrl": "denver-zoo.jpg",
     "imageHeight": 341,
     "imageWidth": 512,
     "costPerPerson": 999,
@@ -513,7 +513,7 @@
   },
   {
     "activity": "Denver Museum of Nature & Science",
-    "imageUrl": "/denver-science-museum.jpg",
+    "imageUrl": "denver-science-museum.jpg",
     "imageHeight": 254,
     "imageWidth": 381,
     "costPerPerson": 999,
@@ -529,7 +529,7 @@
   },
   {
     "activity": "MacDonough's",
-    "imageUrl": "/mcdonoughs.jpg",
+    "imageUrl": "mcdonoughs.jpg",
     "imageHeight": 424,
     "imageWidth": 565,
     "costPerPerson": 20,
@@ -545,7 +545,7 @@
   },
   {
     "activity": "Dragon Boat",
-    "imageUrl": "/dragonboat-aurora.webp",
+    "imageUrl": "dragonboat-aurora.webp",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 25,
@@ -561,7 +561,7 @@
   },
   {
     "activity": "Babi Yar Park",
-    "imageUrl": "/babi-yar-park.jpg",
+    "imageUrl": "babi-yar-park.jpg",
     "imageHeight": 337,
     "imageWidth": 600,
     "costPerPerson": 0,
@@ -577,7 +577,7 @@
   },
   {
     "activity": "Lion's Liar (Punk Rock)",
-    "imageUrl": "/the-lions-liar.webp",
+    "imageUrl": "the-lions-liar.webp",
     "imageHeight": 349,
     "imageWidth": 525,
     "costPerPerson": 999,
@@ -593,7 +593,7 @@
   },
   {
     "activity": "Denver Public Library",
-    "imageUrl": "/denver-public-library.jpg",
+    "imageUrl": "denver-public-library.jpg",
     "imageHeight": 337,
     "imageWidth": 512,
     "costPerPerson": 0,
@@ -609,7 +609,7 @@
   },
   {
     "activity": "Aurora Public Library",
-    "imageUrl": "/aurora-mlk-library.webp",
+    "imageUrl": "aurora-mlk-library.webp",
     "imageHeight": 331,
     "imageWidth": 500,
     "costPerPerson": 0,
@@ -625,7 +625,7 @@
   },
   {
     "activity": "Cherry Creek Mall",
-    "imageUrl": "/cherry-creek-mall.jpg",
+    "imageUrl": "cherry-creek-mall.jpg",
     "imageHeight": 325,
     "imageWidth": 600,
     "costPerPerson": 999,
@@ -641,7 +641,7 @@
   },
   {
     "activity": "Go on a Hike",
-    "imageUrl": "/hike.jpg",
+    "imageUrl": "hike.jpg",
     "imageHeight": 487,
     "imageWidth": 730,
     "costPerPerson": 0,
@@ -657,7 +657,7 @@
   },
   {
     "activity": "Look to YELP for ideas",
-    "imageUrl": "/yelp.webp",
+    "imageUrl": "yelp.webp",
     "imageHeight": 375,
     "imageWidth": 667,
     "costPerPerson": 25,
@@ -673,7 +673,7 @@
   },
   {
     "activity": "Go checkout some street art, murals, or maybe the Blue Bear",
-    "imageUrl": "/blue-bear.jpg",
+    "imageUrl": "blue-bear.jpg",
     "imageHeight": 400,
     "imageWidth": 800,
     "costPerPerson": 0,
@@ -689,7 +689,7 @@
   },
   {
     "activity": "Visit the Mile High step on Capitol Hill",
-    "imageUrl": "/capitol-building.jpg",
+    "imageUrl": "capitol-building.jpg",
     "imageHeight": 390,
     "imageWidth": 588,
     "costPerPerson": 0,
@@ -705,7 +705,7 @@
   },
   {
     "activity": "Larimer Square",
-    "imageUrl": "/larimer-square.jpg",
+    "imageUrl": "larimer-square.jpg",
     "imageHeight": 183,
     "imageWidth": 275,
     "costPerPerson": 999,
@@ -721,7 +721,7 @@
   },
   {
     "activity": "SliceWorks",
-    "imageUrl": "/sliceworks.jpg",
+    "imageUrl": "sliceworks.jpg",
     "imageHeight": 270,
     "imageWidth": 480,
     "costPerPerson": 20,
@@ -737,7 +737,7 @@
   },
   {
     "activity": "Cherry Creek Goodwill",
-    "imageUrl": "/cherry-creek-goodwill.avif",
+    "imageUrl": "cherry-creek-goodwill.avif",
     "imageHeight": 252,
     "imageWidth": 504,
     "costPerPerson": 25,
@@ -753,7 +753,7 @@
   },
   {
     "activity": "The Goldmine",
-    "imageUrl": "/goldmine.jpg",
+    "imageUrl": "goldmine.jpg",
     "imageHeight": 295,
     "imageWidth": 450,
     "costPerPerson": 40,
@@ -769,7 +769,7 @@
   },
   {
     "activity": "Anything Saved on Google or Apple Maps worth checking out?",
-    "imageUrl": "/denver-google-maps.jpg",
+    "imageUrl": "denver-google-maps.jpg",
     "imageHeight": 520,
     "imageWidth": 504,
     "costPerPerson": 25,
@@ -785,7 +785,7 @@
   },
   {
     "activity": "Get Pizza at Sbarro in Aurora's Town Center",
-    "imageUrl": "/sbarro.jpg",
+    "imageUrl": "sbarro.jpg",
     "imageHeight": 478,
     "imageWidth": 650,
     "costPerPerson": 15,
@@ -801,7 +801,7 @@
   },
   {
     "activity": "Try a Rose Steamer at Lil Coffea Shop",
-    "imageUrl": "/lil-coffea-shop.avif",
+    "imageUrl": "lil-coffea-shop.avif",
     "imageHeight": 336,
     "imageWidth": 600,
     "costPerPerson": 10,
@@ -817,7 +817,7 @@
   },
   {
     "activity": "Try a Lavender Latte at Lil Coffea Shop",
-    "imageUrl": "/lavender-latte.jpg",
+    "imageUrl": "lavender-latte.jpg",
     "imageHeight": 600,
     "imageWidth": 600,
     "costPerPerson": 10,
@@ -833,7 +833,7 @@
   },
   {
     "activity": "Try an Eggnog Latte at Lil Coffea Shop",
-    "imageUrl": "/lil-coffea-shop-logo.avif",
+    "imageUrl": "lil-coffea-shop-logo.avif",
     "imageHeight": 313,
     "imageWidth": 600,
     "costPerPerson": 10,
@@ -849,7 +849,7 @@
   },
   {
     "activity": "Ty a Blueberry Yum Yum drink at Lil Coffea Shop",
-    "imageUrl": "/lil-coffea-shop.avif",
+    "imageUrl": "lil-coffea-shop.avif",
     "imageHeight": 336,
     "imageWidth": 600,
     "costPerPerson": 10,
@@ -865,7 +865,7 @@
   },
   {
     "activity": "Alamo Drafthouse Cinema",
-    "imageUrl": "/alamo-drafthouse.jpg",
+    "imageUrl": "alamo-drafthouse.jpg",
     "imageHeight": 540,
     "imageWidth": 960,
     "costPerPerson": 30,
@@ -881,7 +881,7 @@
   },
   {
     "activity": "Crystal Joys Shop",
-    "imageUrl": "/crystal-joys.jpg",
+    "imageUrl": "crystal-joys.jpg",
     "imageHeight": 300,
     "imageWidth": 300,
     "costPerPerson": 25,
@@ -897,7 +897,7 @@
   },
   {
     "activity": "Adelitas Cocina Y Cantina",
-    "imageUrl": "/adelitas-cocina-y-cantina.jpg",
+    "imageUrl": "adelitas-cocina-y-cantina.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -913,7 +913,7 @@
   },
   {
     "activity": "Adobo XO",
-    "imageUrl": "/adobo-xo.jpg",
+    "imageUrl": "adobo-xo.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -929,7 +929,7 @@
   },
   {
     "activity": "Annette",
-    "imageUrl": "/annette.jpg",
+    "imageUrl": "annette.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -945,7 +945,7 @@
   },
   {
     "activity": "Bakery Four",
-    "imageUrl": "/bakery-four.jpg",
+    "imageUrl": "bakery-four.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -961,7 +961,7 @@
   },
   {
     "activity": "Banh & Butter Bakery Cafe",
-    "imageUrl": "/banh-and-butter-bakery-cafe.jpg",
+    "imageUrl": "banh-and-butter-bakery-cafe.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -977,7 +977,7 @@
   },
   {
     "activity": "Biker Jim's Gourmet Dogs",
-    "imageUrl": "/biker-jims-gourmet-dogs.jpg",
+    "imageUrl": "biker-jims-gourmet-dogs.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -993,7 +993,7 @@
   },
   {
     "activity": "Blazing Chicken Shack II",
-    "imageUrl": "/blazing-chicken-shack-ii.jpg",
+    "imageUrl": "blazing-chicken-shack-ii.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1009,7 +1009,7 @@
   },
   {
     "activity": "Blue Pan Pizza",
-    "imageUrl": "/blue-pan-pizza.jpg",
+    "imageUrl": "blue-pan-pizza.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1025,7 +1025,7 @@
   },
   {
     "activity": "Bodega Denver",
-    "imageUrl": "/bodega-denver.jpeg",
+    "imageUrl": "bodega-denver.jpeg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1041,7 +1041,7 @@
   },
   {
     "activity": "Bourbon Grill",
-    "imageUrl": "/bourbon-grill.jpg",
+    "imageUrl": "bourbon-grill.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1057,7 +1057,7 @@
   },
   {
     "activity": "Carm & Gia Metropolitan",
-    "imageUrl": "/carm-and-gia-metropolitan.jpg",
+    "imageUrl": "carm-and-gia-metropolitan.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1073,7 +1073,7 @@
   },
   {
     "activity": "Carmine Lonardo's",
-    "imageUrl": "/carmine-lonardos.jpg",
+    "imageUrl": "carmine-lonardos.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1089,7 +1089,7 @@
   },
   {
     "activity": "Carrera's Tacos",
-    "imageUrl": "/carreras-tacos.jpg",
+    "imageUrl": "carreras-tacos.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1105,7 +1105,7 @@
   },
   {
     "activity": "The Cherry Cricket",
-    "imageUrl": "/the-cherry-cricket.jpg",
+    "imageUrl": "the-cherry-cricket.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1121,7 +1121,7 @@
   },
   {
     "activity": "Columbine Steak House & Lounge",
-    "imageUrl": "/columbine-steak-house-and-lounge.webp",
+    "imageUrl": "columbine-steak-house-and-lounge.webp",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1137,7 +1137,7 @@
   },
   {
     "activity": "Comal Heritage Food Incubator",
-    "imageUrl": "/comal-heritage-food-incubator.jpg",
+    "imageUrl": "comal-heritage-food-incubator.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1153,7 +1153,7 @@
   },
   {
     "activity": "Cuba Cuba Cafe & Bar",
-    "imageUrl": "/cuba-cuba-cafe-and-bar.jpg",
+    "imageUrl": "cuba-cuba-cafe-and-bar.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1169,7 +1169,7 @@
   },
   {
     "activity": "Denver Central Market",
-    "imageUrl": "/denver-central-market.jpg",
+    "imageUrl": "denver-central-market.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1185,7 +1185,7 @@
   },
   {
     "activity": "Famous Original J's Pizza",
-    "imageUrl": "/famous-original-js-pizza.jpg",
+    "imageUrl": "famous-original-js-pizza.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1201,7 +1201,7 @@
   },
   {
     "activity": "The Ginger Pig",
-    "imageUrl": "/the-ginger-pig.jpg",
+    "imageUrl": "the-ginger-pig.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1217,7 +1217,7 @@
   },
   {
     "activity": "Glo Noodle House",
-    "imageUrl": "/glo-noodle-house.jpg",
+    "imageUrl": "glo-noodle-house.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1233,7 +1233,7 @@
   },
   {
     "activity": "The Grateful Gnome Sandwich Shoppe & Brewery",
-    "imageUrl": "/the-grateful-gnome-sandwich-shoppe-and-brewery.jpg",
+    "imageUrl": "the-grateful-gnome-sandwich-shoppe-and-brewery.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1249,7 +1249,7 @@
   },
   {
     "activity": "The Greenwich",
-    "imageUrl": "/the-greenwich.jpg",
+    "imageUrl": "the-greenwich.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1265,7 +1265,7 @@
   },
   {
     "activity": "Hits The Spot Diner",
-    "imageUrl": "/hits-the-spot-diner.jpg",
+    "imageUrl": "hits-the-spot-diner.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1281,7 +1281,7 @@
   },
   {
     "activity": "Hong Kong Station",
-    "imageUrl": "/hong-kong-station.jpg",
+    "imageUrl": "hong-kong-station.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1297,7 +1297,7 @@
   },
   {
     "activity": "House of Bread",
-    "imageUrl": "/house-of-bread.jpg",
+    "imageUrl": "house-of-bread.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1313,7 +1313,7 @@
   },
   {
     "activity": "Joy Hill",
-    "imageUrl": "/joy-hill.jpg",
+    "imageUrl": "joy-hill.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1329,7 +1329,7 @@
   },
   {
     "activity": "La Chiva",
-    "imageUrl": "/la-chiva.jpg",
+    "imageUrl": "la-chiva.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1345,7 +1345,7 @@
   },
   {
     "activity": "Lechuga's Italian Restaurant",
-    "imageUrl": "/lechugas-italian-restaurant.jpg",
+    "imageUrl": "lechugas-italian-restaurant.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1361,7 +1361,7 @@
   },
   {
     "activity": "Lucina",
-    "imageUrl": "/lucina.webp",
+    "imageUrl": "lucina.webp",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1377,7 +1377,7 @@
   },
   {
     "activity": "Mexico City Restaurant & Lounge",
-    "imageUrl": "/mexico-city-restaurant-and-lounge.jpg",
+    "imageUrl": "mexico-city-restaurant-and-lounge.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1393,7 +1393,7 @@
   },
   {
     "activity": "Misfit Snackbar",
-    "imageUrl": "/misfit-snackbar.jpg",
+    "imageUrl": "misfit-snackbar.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1409,7 +1409,7 @@
   },
   {
     "activity": "Noodles Express",
-    "imageUrl": "/noodles-express.jpg",
+    "imageUrl": "noodles-express.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1425,7 +1425,7 @@
   },
   {
     "activity": "Ohana Island Kitchen",
-    "imageUrl": "/ohana-island-kitchen.jpg",
+    "imageUrl": "ohana-island-kitchen.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1441,7 +1441,7 @@
   },
   {
     "activity": "Pete's Kitchen",
-    "imageUrl": "/petes-kitchen.jpg",
+    "imageUrl": "petes-kitchen.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1457,7 +1457,7 @@
   },
   {
     "activity": "Pit Fiend Barbecue",
-    "imageUrl": "/pit-fiend-barbeque.jpg",
+    "imageUrl": "pit-fiend-barbeque.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1473,7 +1473,7 @@
   },
   {
     "activity": "Point Easy",
-    "imageUrl": "/point-easy.jpg",
+    "imageUrl": "point-easy.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1489,7 +1489,7 @@
   },
   {
     "activity": "Poppie's Restaurant",
-    "imageUrl": "/poppies-restaurant.jpg",
+    "imageUrl": "poppies-restaurant.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1505,7 +1505,7 @@
   },
   {
     "activity": "Redeemer Pizza",
-    "imageUrl": "/redeemer-pizza.jpg",
+    "imageUrl": "redeemer-pizza.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1521,7 +1521,7 @@
   },
   {
     "activity": "Roaming Buffalo Bar-B-Que",
-    "imageUrl": "/roaming-buffalo-bar-b-que.jpg",
+    "imageUrl": "roaming-buffalo-bar-b-que.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1537,7 +1537,7 @@
   },
   {
     "activity": "Safta",
-    "imageUrl": "/safta.jpg",
+    "imageUrl": "safta.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1553,7 +1553,7 @@
   },
   {
     "activity": "Sam's No. 3",
-    "imageUrl": "/sams-no-3.jpg",
+    "imageUrl": "sams-no-3.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1569,7 +1569,7 @@
   },
   {
     "activity": "Savory Vietnam",
-    "imageUrl": "/savory-vietnam.jpg",
+    "imageUrl": "savory-vietnam.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1585,7 +1585,7 @@
   },
   {
     "activity": "Seoul K-BBQ & Hot Pot",
-    "imageUrl": "/seoul-k-bbq-and-hot-pot.jpg",
+    "imageUrl": "seoul-k-bbq-and-hot-pot.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1601,7 +1601,7 @@
   },
   {
     "activity": "Smok",
-    "imageUrl": "/smok.jpg",
+    "imageUrl": "smok.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1617,7 +1617,7 @@
   },
   {
     "activity": "Split Lip",
-    "imageUrl": "/split-lip.jpg",
+    "imageUrl": "split-lip.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1633,7 +1633,7 @@
   },
   {
     "activity": "Street Feud",
-    "imageUrl": "/street-feud.jpg",
+    "imageUrl": "street-feud.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1649,7 +1649,7 @@
   },
   {
     "activity": "Taste of Thailand",
-    "imageUrl": "/taste-of-thailand.jpg",
+    "imageUrl": "taste-of-thailand.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1665,7 +1665,7 @@
   },
   {
     "activity": "Tikka & Grill",
-    "imageUrl": "/tikka-and-grill.jpg",
+    "imageUrl": "tikka-and-grill.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1681,7 +1681,7 @@
   },
   {
     "activity": "Vinh Xuong Bakery",
-    "imageUrl": "/vinh-xuong-bakery.jpg",
+    "imageUrl": "vinh-xuong-bakery.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1697,7 +1697,7 @@
   },
   {
     "activity": "Vinolla's Italian Market",
-    "imageUrl": "/vinnolas-italian-market.jpg",
+    "imageUrl": "vinnolas-italian-market.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1713,7 +1713,7 @@
   },
   {
     "activity": "Woody's Wings N' Things",
-    "imageUrl": "/woodys-wings-n-things.jpg",
+    "imageUrl": "woodys-wings-n-things.jpg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
@@ -1729,7 +1729,7 @@
   },
   {
     "activity": "Zaidy's Deli",
-    "imageUrl": "/zaidys-deli.jpeg",
+    "imageUrl": "zaidys-deli.jpeg",
     "imageHeight": 408,
     "imageWidth": 670,
     "costPerPerson": 999,
