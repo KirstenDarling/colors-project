@@ -19,6 +19,8 @@ export default function Bored() {
   const [haveBeen, setHaveBeen] = useState(false);
   const [description, setDescription] = useState("");
   const [imageUrl, setImageUrl] = useState("");
+  const [imageHeight, setImageHeight] = useState(408);
+  const [imageWidth, setImageWidth] = useState(670);
 
   function close() {
     setIsOpen(false);
@@ -41,6 +43,8 @@ export default function Bored() {
     setHaveBeen(winner.haveBeen);
     setDescription(winner.description);
     setImageUrl(winner.imageUrl);
+    setImageHeight(winner.imageHeight);
+    setImageWidth(winner.imageWidth);
   }
 
   function pickFood() {
@@ -150,6 +154,8 @@ export default function Bored() {
           haveBeen={haveBeen}
           description={description}
           imageUrl={imageUrl}
+          imageHeight={imageHeight}
+          imageWidth={imageWidth}
         />
       </div>
     </div>

@@ -1,3 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable jsx-a11y/alt-text */
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import ReactDOM from "react-dom";
 import styles from "./Modal.module.css";
@@ -16,6 +19,8 @@ interface Props {
   haveBeen: any;
   description: string;
   imageUrl: string;
+  imageHeight: number;
+  imageWidth: number;
 }
 
 const Modal = ({
@@ -32,6 +37,8 @@ const Modal = ({
   haveBeen,
   description,
   imageUrl,
+  imageHeight,
+  imageWidth,
 }: Props) => {
   return (
     <>
@@ -46,6 +53,19 @@ const Modal = ({
             &times;
           </button>
           <p className={styles.activityTitle}>{activityName}</p>
+          {imageUrl && (
+            <div
+              className={""}
+              style={{ display: "flex", justifyContent: "center" }}
+            >
+              <Image
+                src={imageUrl}
+                alt={imageUrl}
+                height={imageHeight}
+                width={imageWidth}
+              />
+            </div>
+          )}
           {costPerPerson && costPerPerson !== 999 ? (
             <p>{`Cost Per Person: $${costPerPerson}`}</p>
           ) : (
@@ -59,7 +79,6 @@ const Modal = ({
           <p>{`Has Drinks: ${hasDrinks}`}</p>
           <p>{`Have Been: ${haveBeen}`}</p>
           {description && <p>{`Description: ${description}`}</p>}
-          {imageUrl && <p>{imageUrl}</p>}
         </div>
       </div>
     </>
