@@ -18,7 +18,7 @@ export default function Bored() {
   const [hasDrinks, sethasDrinks] = useState(true);
   const [haveBeen, setHaveBeen] = useState(false);
   const [description, setDescription] = useState("");
-  const [imageUrl, setImageUrl] = useState("");
+  const [imageUrl, setImageUrl] = useState("/images/missing-image.jpg");
   const [imageHeight, setImageHeight] = useState(408);
   const [imageWidth, setImageWidth] = useState(670);
 
