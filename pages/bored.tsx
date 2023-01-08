@@ -3,6 +3,14 @@ import Link from "next/link";
 import { useState } from "react";
 import { setConstantValue } from "typescript";
 import Modal from "../components/Modal/Modal";
+import { Swiper, SwiperSlide } from "swiper/react";
+import swiperStyles from "../styles/Swiper.module.css";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/scrollbar";
+
+import { Scrollbar } from "swiper";
 
 import activities from "../data/activities.json";
 
@@ -110,36 +118,67 @@ export default function Bored() {
           alignItems: "center",
         }}
       >
-        <button className="" onClick={pickActivity} style={{ width: "20%" }}>
-          Choose an activity
-        </button>
-        <button style={{ width: "20%", marginTop: "5%" }} onClick={pickFood}>
-          Choose some food
-        </button>
-        <button
-          style={{ width: "20%", marginTop: "5%" }}
-          onClick={pickCheapStuff}
+        <Swiper
+          scrollbar={{
+            hide: true,
+          }}
+          modules={[Scrollbar]}
+          className={swiperStyles.mySwiper}
         >
-          Choose a cheap activity
-        </button>
-        <button
-          style={{ width: "20%", marginTop: "5%" }}
-          onClick={pickSomethingNew}
-        >
-          Try something new
-        </button>
-        <button
-          style={{ width: "20%", marginTop: "5%" }}
-          onClick={pickAStayingHomeActivity}
-        >
-          Let&apos;s stay in
-        </button>
-        <button
-          style={{ width: "20%", marginTop: "5%" }}
-          onClick={pickAGoingOutActivity}
-        >
-          Let&apos;s go out
-        </button>
+          <SwiperSlide className={swiperStyles.slide}>
+            <button
+              className=""
+              onClick={pickActivity}
+              style={{ width: "20%" }}
+            >
+              Choose an activity
+            </button>
+          </SwiperSlide>
+          <SwiperSlide className={swiperStyles.slide}>
+            <button
+              style={{ width: "20%", marginTop: "5%" }}
+              onClick={pickFood}
+            >
+              Choose some food
+            </button>
+          </SwiperSlide>
+          <SwiperSlide className={swiperStyles.slide}>
+            {" "}
+            <button
+              style={{ width: "20%", marginTop: "5%" }}
+              onClick={pickCheapStuff}
+            >
+              Choose a cheap activity
+            </button>
+          </SwiperSlide>
+          <SwiperSlide className={swiperStyles.slide}>
+            {" "}
+            <button
+              style={{ width: "20%", marginTop: "5%" }}
+              onClick={pickSomethingNew}
+            >
+              Try something new
+            </button>
+          </SwiperSlide>
+          <SwiperSlide className={swiperStyles.slide}>
+            {" "}
+            <button
+              style={{ width: "20%", marginTop: "5%" }}
+              onClick={pickAStayingHomeActivity}
+            >
+              Let&apos;s stay in
+            </button>
+          </SwiperSlide>
+          <SwiperSlide className={swiperStyles.slide}>
+            {" "}
+            <button
+              style={{ width: "20%", marginTop: "5%" }}
+              onClick={pickAGoingOutActivity}
+            >
+              Let&apos;s go out
+            </button>
+          </SwiperSlide>
+        </Swiper>
         <Modal
           isOpen={isOpen}
           close={close}
