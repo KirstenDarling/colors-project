@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
-import { setConstantValue } from "typescript";
+import { isConstructorDeclaration, setConstantValue } from "typescript";
 import Modal from "../components/Modal/Modal";
 import { Swiper, SwiperSlide } from "swiper/react";
 import swiperStyles from "../styles/Swiper.module.css";
@@ -43,8 +43,30 @@ export default function Bored() {
   }
 
   function pickActivity() {
-    console.log(activities);
-    var winner = activities[Math.floor(Math.random() * activities.length)];
+    console.log("showFood:", settings.showFood);
+    console.log("showStayingIn:", !settings.showGoingOut);
+    console.log("showNew:", !settings.showNew);
+    var activitiesFilteredByFoodSettings = activities.filter((obj) => {
+      return (
+        obj.isFoodOption === settings.showFood &&
+        obj.stayingIn !== settings.showGoingOut &&
+        obj.haveBeen !== settings.showNew
+      );
+    });
+    var winner =
+      activitiesFilteredByFoodSettings[
+        Math.floor(Math.random() * activitiesFilteredByFoodSettings.length)
+      ];
+
+    // if (settings.showFood) {
+    //   var foodsOnly = activities.filter((obj) => {
+    //     return obj.isFoodOption === settings.showFood;
+    //   });
+    //   var winner = foodsOnly[Math.floor(Math.random() * foodsOnly.length)];
+    // } else {
+    //   var winner = activities[Math.floor(Math.random() * activities.length)];
+    // }
+
     console.log(winner);
     console.log(winner.activity);
     setIsOpen(true);
@@ -65,7 +87,6 @@ export default function Bored() {
 
   function pickFood() {
     setSettings({ ...settings, showFood: true });
-    console.log(settings);
     // var foodsOnly = activities.filter((obj) => {
     //   return obj.isFoodOption === true;
     // });
@@ -75,7 +96,6 @@ export default function Bored() {
 
   function pickNonFood() {
     setSettings({ ...settings, showFood: false });
-    console.log(settings);
     // var nonFoodsOnly = activities.filter((obj) => {
     //   return obj.isFoodOption === false;
     // });
@@ -86,12 +106,10 @@ export default function Bored() {
 
   function pickCheapStuff() {
     setSettings({ ...settings, showCheap: true });
-    console.log(settings);
   }
 
   function pickNonCheapStuff() {
     setSettings({ ...settings, showCheap: false });
-    console.log(settings);
   }
 
   // function pickCheapStuff() {
@@ -104,12 +122,10 @@ export default function Bored() {
 
   function pickSomethingNew() {
     setSettings({ ...settings, showNew: true });
-    console.log(settings);
   }
 
   function pickSomethingOld() {
     setSettings({ ...settings, showNew: false });
-    console.log(settings);
   }
 
   // function pickSomethingNew() {
@@ -122,12 +138,10 @@ export default function Bored() {
 
   function letsStayIn() {
     setSettings({ ...settings, showGoingOut: false });
-    console.log(settings);
   }
 
   function letsGoOut() {
     setSettings({ ...settings, showGoingOut: true });
-    console.log(settings);
   }
 
   // function pickAStayingHomeActivity() {
