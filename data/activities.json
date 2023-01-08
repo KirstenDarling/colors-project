@@ -41,7 +41,7 @@
     "datesAvailable": "all",
     "weekendGetaway": false,
     "neighborhood": "",
-    "isFoodOption": false,
+    "isFoodOption": true,
     "hasDrinks": true,
     "haveBeen": false,
     "why": "",
