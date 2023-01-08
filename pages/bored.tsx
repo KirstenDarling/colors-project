@@ -5,6 +5,8 @@ import { setConstantValue } from "typescript";
 import Modal from "../components/Modal/Modal";
 import { Swiper, SwiperSlide } from "swiper/react";
 import swiperStyles from "../styles/Swiper.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
 
 // Import Swiper styles
 import "swiper/css";
@@ -29,6 +31,12 @@ export default function Bored() {
   const [imageUrl, setImageUrl] = useState("/images/missing-image.jpg");
   const [imageHeight, setImageHeight] = useState(408);
   const [imageWidth, setImageWidth] = useState(670);
+  const [settings, setSettings] = useState({
+    showFood: false,
+    showCheap: true,
+    showNew: true,
+    showGoingOut: true,
+  });
 
   function close() {
     setIsOpen(false);
@@ -56,46 +64,89 @@ export default function Bored() {
   }
 
   function pickFood() {
-    var foodsOnly = activities.filter((obj) => {
-      return obj.isFoodOption === true;
-    });
-    var foodWinner = foodsOnly[Math.floor(Math.random() * foodsOnly.length)];
-    alert(foodWinner.activity);
+    setSettings({ ...settings, showFood: true });
+    console.log(settings);
+    // var foodsOnly = activities.filter((obj) => {
+    //   return obj.isFoodOption === true;
+    // });
+    // var foodWinner = foodsOnly[Math.floor(Math.random() * foodsOnly.length)];
+    // alert(foodWinner.activity);
+  }
+
+  function pickNonFood() {
+    setSettings({ ...settings, showFood: false });
+    console.log(settings);
+    // var nonFoodsOnly = activities.filter((obj) => {
+    //   return obj.isFoodOption === false;
+    // });
+    // var nonFoodWinner =
+    //   nonFoodsOnly[Math.floor(Math.random() * nonFoodsOnly.length)];
+    // alert(nonFoodWinner.activity);
   }
 
   function pickCheapStuff() {
-    var cheapOnly = activities.filter((obj) => {
-      return obj.costPerPerson === 0;
-    });
-    var cheapWinner = cheapOnly[Math.floor(Math.random() * cheapOnly.length)];
-    alert(cheapWinner.activity);
+    setSettings({ ...settings, showCheap: true });
+    console.log(settings);
   }
+
+  function pickNonCheapStuff() {
+    setSettings({ ...settings, showCheap: false });
+    console.log(settings);
+  }
+
+  // function pickCheapStuff() {
+  //   var cheapOnly = activities.filter((obj) => {
+  //     return obj.costPerPerson === 0;
+  //   });
+  //   var cheapWinner = cheapOnly[Math.floor(Math.random() * cheapOnly.length)];
+  //   alert(cheapWinner.activity);
+  // }
 
   function pickSomethingNew() {
-    var newOnly = activities.filter((obj) => {
-      return obj.haveBeen === false;
-    });
-    var newWinner = newOnly[Math.floor(Math.random() * newOnly.length)];
-    alert(newWinner.activity);
+    setSettings({ ...settings, showNew: true });
+    console.log(settings);
   }
 
-  function pickAStayingHomeActivity() {
-    var stayingInOnly = activities.filter((obj) => {
-      return obj.stayingIn === true;
-    });
-    var stayingInWinner =
-      stayingInOnly[Math.floor(Math.random() * stayingInOnly.length)];
-    alert(stayingInWinner.activity);
+  function pickSomethingOld() {
+    setSettings({ ...settings, showNew: false });
+    console.log(settings);
   }
 
-  function pickAGoingOutActivity() {
-    var goingOutOnly = activities.filter((obj) => {
-      return obj.stayingIn === false;
-    });
-    var goingOutWinner =
-      goingOutOnly[Math.floor(Math.random() * goingOutOnly.length)];
-    alert(goingOutWinner.activity);
+  // function pickSomethingNew() {
+  //   var newOnly = activities.filter((obj) => {
+  //     return obj.haveBeen === false;
+  //   });
+  //   var newWinner = newOnly[Math.floor(Math.random() * newOnly.length)];
+  //   alert(newWinner.activity);
+  // }
+
+  function letsStayIn() {
+    setSettings({ ...settings, showGoingOut: false });
+    console.log(settings);
   }
+
+  function letsGoOut() {
+    setSettings({ ...settings, showGoingOut: true });
+    console.log(settings);
+  }
+
+  // function pickAStayingHomeActivity() {
+  //   var stayingInOnly = activities.filter((obj) => {
+  //     return obj.stayingIn === true;
+  //   });
+  //   var stayingInWinner =
+  //     stayingInOnly[Math.floor(Math.random() * stayingInOnly.length)];
+  //   alert(stayingInWinner.activity);
+  // }
+
+  // function pickAGoingOutActivity() {
+  //   var goingOutOnly = activities.filter((obj) => {
+  //     return obj.stayingIn === false;
+  //   });
+  //   var goingOutWinner =
+  //     goingOutOnly[Math.floor(Math.random() * goingOutOnly.length)];
+  //   alert(goingOutWinner.activity);
+  // }
 
   return (
     <div>
@@ -126,57 +177,190 @@ export default function Bored() {
           className={swiperStyles.mySwiper}
         >
           <SwiperSlide className={swiperStyles.slide}>
-            <button
-              className=""
-              onClick={pickActivity}
-              style={{ width: "20%" }}
+            <div
+              style={{
+                backgroundColor: "#f7cac9",
+                width: "100%",
+                height: "100vh",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
             >
-              Choose an activity
-            </button>
+              <h1>Are you hungry?</h1>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  height: "30%",
+                  justifyContent: "space-around",
+                }}
+              >
+                <button onClick={pickFood}>Yes</button>
+                <button onClick={pickNonFood}>No</button>
+                <FontAwesomeIcon
+                  icon={faAnglesRight}
+                  style={{ marginTop: "25px" }}
+                />
+              </div>
+              {/* <button style={{ width: "20%" }} onClick={pickFood}>
+                Choose some food
+              </button> */}
+            </div>
           </SwiperSlide>
           <SwiperSlide className={swiperStyles.slide}>
-            <button
-              style={{ width: "20%", marginTop: "5%" }}
-              onClick={pickFood}
+            <div
+              style={{
+                backgroundColor: "#0f4c81",
+                width: "100%",
+                height: "100vh",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
             >
-              Choose some food
-            </button>
+              <h1 style={{ color: "white" }}>Are you trying to save rn?</h1>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  height: "30%",
+                  justifyContent: "space-around",
+                  alignItems: "center",
+                }}
+              >
+                <button onClick={pickCheapStuff}>
+                  Yes, show me cheap &amp; free activities
+                </button>
+                <button onClick={pickNonCheapStuff}>
+                  No, show me everything
+                </button>
+                <FontAwesomeIcon
+                  icon={faAnglesRight}
+                  style={{
+                    marginTop: "25px",
+                    color: "white",
+                    width: "50px",
+                    textAlign: "center",
+                  }}
+                />
+              </div>
+              {/* <button style={{ width: "20%" }} onClick={pickCheapStuff}>
+                Choose a cheap activity
+              </button> */}
+            </div>
           </SwiperSlide>
           <SwiperSlide className={swiperStyles.slide}>
-            {" "}
-            <button
-              style={{ width: "20%", marginTop: "5%" }}
-              onClick={pickCheapStuff}
+            <div
+              style={{
+                backgroundColor: "#fa7269",
+                width: "100%",
+                height: "100vh",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
             >
-              Choose a cheap activity
-            </button>
+              <h1 style={{ color: "white" }}>
+                Do you want to do something new??
+                <br />
+                That you&apos;ve never done before??
+              </h1>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  height: "30%",
+                  justifyContent: "space-around",
+                  alignItems: "center",
+                }}
+              >
+                <button onClick={pickSomethingNew}>
+                  Yes, I&apos;m feeling adventurous
+                </button>
+                <button onClick={pickSomethingOld}>
+                  No, show me things I&apos;ve done before and know I like
+                  already please
+                </button>
+                <FontAwesomeIcon
+                  icon={faAnglesRight}
+                  style={{
+                    marginTop: "25px",
+                    color: "white",
+                    width: "50px",
+                    textAlign: "center",
+                  }}
+                />
+              </div>
+              {/* <button style={{ width: "20%" }} onClick={pickSomethingNew}>
+                Try something new
+              </button> */}
+            </div>
           </SwiperSlide>
           <SwiperSlide className={swiperStyles.slide}>
-            {" "}
-            <button
-              style={{ width: "20%", marginTop: "5%" }}
-              onClick={pickSomethingNew}
+            <div
+              style={{
+                backgroundColor: "#88b04b",
+                width: "100%",
+                height: "100vh",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
             >
-              Try something new
-            </button>
+              <h1 style={{ color: "white" }}>
+                Do you feel like going out tonight?
+              </h1>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  height: "30%",
+                  justifyContent: "space-around",
+                  alignItems: "center",
+                }}
+              >
+                <button onClick={letsGoOut}>Yes, let&apos;s go out</button>
+                <button onClick={letsStayIn}>No, I want to stay in</button>
+                <FontAwesomeIcon
+                  icon={faAnglesRight}
+                  style={{
+                    marginTop: "25px",
+                    color: "white",
+                    width: "50px",
+                    textAlign: "center",
+                  }}
+                />
+              </div>
+              {/* <button style={{ width: "20%" }} onClick={pickAGoingOutActivity}>
+                Let&apos;s go out
+              </button> */}
+            </div>
           </SwiperSlide>
           <SwiperSlide className={swiperStyles.slide}>
-            {" "}
-            <button
-              style={{ width: "20%", marginTop: "5%" }}
-              onClick={pickAStayingHomeActivity}
+            <div
+              style={{
+                backgroundColor: "#b06781",
+                width: "100%",
+                height: "100vh",
+                display: "flex",
+                flexDirection: "column",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
             >
-              Let&apos;s stay in
-            </button>
-          </SwiperSlide>
-          <SwiperSlide className={swiperStyles.slide}>
-            {" "}
-            <button
-              style={{ width: "20%", marginTop: "5%" }}
-              onClick={pickAGoingOutActivity}
-            >
-              Let&apos;s go out
-            </button>
+              <button
+                className=""
+                onClick={pickActivity}
+                style={{ width: "20%" }}
+              >
+                Choose an activity
+              </button>
+            </div>
           </SwiperSlide>
         </Swiper>
         <Modal
