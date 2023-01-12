@@ -1,6 +1,6 @@
 .container {
   background-image: url("../public/tattoo-background.jpeg");
-  /* background-size: contain; */
+  background-size: contain;
   background-color: black;
   width: 100%;
   height: 100%;
