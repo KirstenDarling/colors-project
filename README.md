@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## LINKS
+
+[Main - Colors Project](http://kirstendarling.github.io/colors-project)
+
+[Project Page - Activity Picker](http://kirstendarling.github.io/colors-project/bored)
+
+[Project Page - Dustin's Tattoo Page](http://kirstendarling.github.io/colors-project/dustin)
+
 ## Getting Started
 
 First, run the development server:
