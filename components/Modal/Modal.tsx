@@ -52,33 +52,38 @@ const Modal = ({
           <button className={styles.close} onClick={close}>
             &times;
           </button>
-          <p className={styles.activityTitle}>{activityName}</p>
           {imageUrl && (
             <div
               className={""}
-              style={{ display: "flex", justifyContent: "center" }}
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                marginTop: "75px",
+              }}
             >
               <img
                 src={imageUrl}
                 alt={imageUrl}
-                height={imageHeight}
-                width={imageWidth}
+                height="200px"
+                width="300px"
+                style={{ objectFit: "contain" }}
               />
             </div>
           )}
+          <p className={styles.activityTitle}>{activityName}</p>
           {costPerPerson && costPerPerson !== 999 ? (
-            <p>{`Cost Per Person: $${costPerPerson}`}</p>
+            <p>{`$${costPerPerson}`}</p>
           ) : (
-            <p>{`Cost Per Person: UNKNOWN`}</p>
+            <p>{`$??`}</p>
           )}
-          <p>{`Staying In: ${stayingIn}`}</p>
-          <p>{`Dates Available: ${datesAvailable}`}</p>
-          <p>{`Weekend Getaway: ${weekendGetaway}`}</p>
-          <p>{`Neighborhood: ${neighborhood}`}</p>
-          <p>{`Is a food option: ${isFoodOption}`}</p>
-          <p>{`Has Drinks: ${hasDrinks}`}</p>
-          <p>{`Have Been: ${haveBeen}`}</p>
-          {description && <p>{`Description: ${description}`}</p>}
+          {/* <p>{`Staying In: ${stayingIn}`}</p> */}
+          {/* <p>{`Dates Available: ${datesAvailable}`}</p> */}
+          {/* <p>{`Weekend Getaway: ${weekendGetaway}`}</p> */}
+          <p>{neighborhood}</p>
+          {/* <p>{`Is a food option: ${isFoodOption}`}</p> */}
+          {/* <p>{`Has Drinks: ${hasDrinks}`}</p> */}
+          {/* <p>{`Have Been: ${haveBeen}`}</p> */}
+          {description && <p>{description}</p>}
         </div>
       </div>
     </>
