@@ -8,10 +8,10 @@ import styles from "../styles/Dustin.module.css";
 export default function Dustin() {
   return (
     <div className={styles.container}>
-      <h1 className={styles.header}>
+      {/* <h1 className={styles.header}>
         This is where I&apos;m gonna put a sample Dustin form
-      </h1>
-      <div className={styles.formContainer}>
+      </h1> */}
+      {/* <div className={styles.formContainer}>
         <h2 className={styles.secondaryHeader}>
           Dustin wants to know stuff aboot the client...
         </h2>
@@ -79,7 +79,7 @@ export default function Dustin() {
           point
         </label>
         <input className={styles.inputs} type="input" name="dataStructure10" />
-      </div>
+      </div> */}
     </div>
   );
 }
