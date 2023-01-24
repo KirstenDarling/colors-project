@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import { useState } from "react";
-import { isConstructorDeclaration, setConslightGreytValue } from "typescript";
+import { isConstructorDeclaration, setConstantValue } from "typescript";
 import Modal from "../components/Modal/Modal";
 import { Swiper, SwiperSlide } from "swiper/react";
 import swiperStyles from "../styles/Swiper.module.css";
