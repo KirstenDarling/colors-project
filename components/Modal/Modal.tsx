@@ -66,11 +66,9 @@ const Modal = ({
             )}
             <p className={styles.activityTitle}>{activityName}</p>
             <p className={styles.neighborhood}>{neighborhood}</p>
-            {costPerPerson && costPerPerson !== 999 ? (
+            {/* {costPerPerson && costPerPerson !== 999 && (
               <p className={styles.cost}>{`$${costPerPerson}`}</p>
-            ) : (
-              <p className={styles.cost}>{`$??`}</p>
-            )}
+            )} */}
             {/* <p>{`Staying In: ${stayingIn}`}</p> */}
             {/* <p>{`Dates Available: ${datesAvailable}`}</p> */}
             {/* <p>{`Weekend Getaway: ${weekendGetaway}`}</p> */}

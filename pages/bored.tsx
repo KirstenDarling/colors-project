@@ -34,7 +34,7 @@ export default function Bored() {
   const [imageWidth, setImageWidth] = useState(670);
   const [settings, setSettings] = useState({
     showFood: true,
-    showCheap: true,
+    showCheap: false,
     showNew: true,
     showGoingOut: true,
   });
@@ -47,8 +47,9 @@ export default function Bored() {
     var activitiesFilteredByFoodSettings = activities.filter((obj) => {
       return (
         obj.isFoodOption === settings.showFood &&
-        obj.stayingIn !== settings.showGoingOut &&
-        obj.haveBeen !== settings.showNew
+        obj.stayingIn !== settings.showGoingOut
+        // &&
+        // obj.haveBeen !== settings.showNew
       );
     });
     var winner =
@@ -100,6 +101,11 @@ export default function Bored() {
     setSettings({ ...settings, showNew: false });
     console.log("showNew", settings.showNew);
   }
+
+  // function pickOldOrNew() {
+  //   setSettings({ ...settings, showNew: false || true });
+  //   console.log("showNew", settings.showNew);
+  // }
 
   function letsStayIn() {
     setSettings({ ...settings, showGoingOut: false });
@@ -235,7 +241,7 @@ export default function Bored() {
                           </button>
                         </th>
                       </tr>
-                      <tr>
+                      {/* <tr>
                         <td style={{ textAlign: "left" }}>
                           ...that&apos;s cheap?
                         </td>
@@ -259,8 +265,8 @@ export default function Bored() {
                             No
                           </button>
                         </th>
-                      </tr>
-                      <tr>
+                      </tr> */}
+                      {/* <tr>
                         <td style={{ textAlign: "left" }}>
                           ...that&apos;s something new?
                         </td>
@@ -284,7 +290,7 @@ export default function Bored() {
                             No
                           </button>
                         </th>
-                      </tr>
+                      </tr> */}
                       <tr>
                         <td style={{ textAlign: "left" }}>
                           ...that&apos;s out of the house?
