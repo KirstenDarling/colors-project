@@ -52,8 +52,8 @@
 .activityTitle {
   /* text-align: center; */
   font-family: "Syne", sans-serif;
-  margin-top: 50px;
   font-size: 1.25rem;
+  margin-bottom: 0;
 }
 
 @import "https://fonts.googleapis.com/css?family=Rubik+One";
@@ -81,4 +81,19 @@
 
 .pushable:active .front {
   transform: translateY(-2px);
+}
+
+.innerContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.cost {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.neighborhood {
+  margin-top: 0;
+  margin-bottom: 20px;
 }
