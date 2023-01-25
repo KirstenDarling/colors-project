@@ -18,6 +18,8 @@
   border: 1px solid #888;
   width: 80%;
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* The Close Button */
@@ -26,6 +28,8 @@
   float: right;
   font-size: 28px;
   font-weight: bold;
+  width: 40px;
+  align-self: end;
 }
 
 .close:hover,
@@ -48,4 +52,31 @@
   font-family: "Syne", sans-serif;
   margin-top: 50px;
   font-size: 1.25rem;
+}
+
+@import "https://fonts.googleapis.com/css?family=Rubik+One";
+
+.pushable {
+  background-color: #134364;
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  font-family: "Rubik One", sans-serif;
+  text-decoration: none;
+  font-size: 2rem;
+  align-self: center;
+}
+.front {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  background-color: #3498db;
+  color: white;
+  transform: translateY(-6px);
+}
+
+.pushable:active .front {
+  transform: translateY(-2px);
 }
