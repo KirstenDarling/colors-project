@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import swiperStyles from "../styles/Swiper.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
+import styles from "../styles/Bored.module.css";
 
 // Import Swiper styles
 import "swiper/css";
@@ -175,12 +176,11 @@ export default function Bored() {
                 />
               </svg>
               {!areSettingsOpen && (
-                <button
-                  className=""
-                  onClick={pickActivity}
-                  style={{ width: "20%" }}
-                >
-                  Choose an activity
+                <button className={styles.pushable} onClick={pickActivity}>
+                  <span className={styles.front}>
+                    Choose an <br />
+                    activity!
+                  </span>
                 </button>
               )}
               {areSettingsOpen && (
@@ -349,6 +349,7 @@ export default function Bored() {
           imageUrl={imageUrl}
           imageHeight={imageHeight}
           imageWidth={imageWidth}
+          pickActivity={pickActivity}
         />
       </div>
     </div>
