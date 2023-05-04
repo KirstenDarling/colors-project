@@ -1,4 +1,4 @@
-import { MdLocalPlay as icon } from "react-icons/md";
+import { MdAttachMoney as icon } from "react-icons/md";
 
 export default {
   name: "secondPaycheck",

@@ -1,4 +1,4 @@
-import { MdLocalPlay as icon } from "react-icons/md";
+import { MdEqualizer as icon } from "react-icons/md";
 
 export default {
   name: "annualBudget",
