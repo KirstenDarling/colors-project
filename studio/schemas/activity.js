@@ -1,4 +1,4 @@
-import { MdLocalPlay as icon } from "react-icons/md";
+import { MdDirectionsBike as icon } from "react-icons/md";
 
 export default {
   name: "activity",

@@ -1,4 +1,4 @@
-import { MdLocalPlay as icon } from "react-icons/md";
+import { MdPinDrop as icon } from "react-icons/md";
 
 export default {
   name: "neighborhood",
@@ -62,7 +62,7 @@ export default {
   preview: {
     select: {
       title: "neighborhoodName",
-      media: "movie.poster",
+      subtitle: "neighborhoodNickname",
     },
   },
 };

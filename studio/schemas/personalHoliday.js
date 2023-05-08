@@ -1,4 +1,4 @@
-import { MdLocalPlay as icon } from "react-icons/md";
+import { MdEvent as icon } from "react-icons/md";
 
 export default {
   name: "personalHoliday",

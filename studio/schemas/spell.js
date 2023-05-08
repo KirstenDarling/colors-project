@@ -1,4 +1,4 @@
-import { MdLocalPlay as icon } from "react-icons/md";
+import { MdBook as icon } from "react-icons/md";
 
 export default {
   name: "spell",
