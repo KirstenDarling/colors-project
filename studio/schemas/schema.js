@@ -5,8 +5,11 @@ import schemaTypes from "all:part:@sanity/base/schema-type";
 
 // We import object and document schemas
 import blockContent from "./blockContent";
+import bill from "./bill";
 import crewMember from "./crewMember";
 import castMember from "./castMember";
+import debt from "./debt";
+import debtCollector from "./debtCollector";
 import movie from "./movie";
 import person from "./person";
 import screening from "./screening";
@@ -14,7 +17,6 @@ import activity from "./activity";
 import color from "./color";
 import firstPaycheck from "./firstPaycheck";
 import secondPaycheck from "./secondPaycheck";
-import annualBudget from "./annualBudget";
 import monthlyBudget from "./monthlyBudget";
 import goal from "./goal";
 import spell from "./spell";
@@ -22,6 +24,8 @@ import personalHoliday from "./personalHoliday";
 import plotSummary from "./plotSummary";
 import plotSummaries from "./plotSummaries";
 import neighborhood from "./neighborhood";
+import balance from "./balance";
+import archerUtilities from "./archerUtilities";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -32,15 +36,19 @@ export default createSchema({
   types: schemaTypes.concat([
     // The following are document types which will appear
     // in the studio.
+    archerUtilities,
     movie,
     person,
     neighborhood,
     screening,
     activity,
+    balance,
+    bill,
     color,
+    debt,
+    debtCollector,
     firstPaycheck,
     secondPaycheck,
-    annualBudget,
     monthlyBudget,
     goal,
     spell,
