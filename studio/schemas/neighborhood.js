@@ -63,7 +63,6 @@ export default {
     select: {
       title: "neighborhoodName",
       subtitle: "neighborhoodNickname",
-      media: "movie.poster",
     },
   },
 };
