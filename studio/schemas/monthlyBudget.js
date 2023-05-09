@@ -15,7 +15,7 @@ export default {
     {
       name: "usualBills",
       title: "Usual Bills",
-      description: "Check these bills off if they are planned for below.",
+      description: "Check these bills off once they have been paid.",
       type: "array",
       of: [{ type: "string" }],
       options: {
@@ -67,13 +67,13 @@ export default {
             title: "19 - ClearCover Car Insurance ($180)",
             value: "carInsurance",
           },
-          { title: "20 - Restock Groceries ($150)", value: "groceries" },
-          { title: "20 - Restock Laundry Money ($20)", value: "laundryMoney" },
-          { title: "20 - Restock Weed ($60)", value: "weed" },
-          { title: "20 - Restock Car Gas ($20)", value: "carGas" },
+          { title: "20 - Restock Groceries ($150)", value: "groceries2" },
+          { title: "20 - Restock Laundry Money ($20)", value: "laundryMoney2" },
+          { title: "20 - Restock Weed ($60)", value: "weed2" },
+          { title: "20 - Restock Car Gas ($20)", value: "carGas2" },
           {
             title: "20 - Debt Snowball ($200) - Credit Card Payments",
-            value: "debtSnowball",
+            value: "debtSnowball2",
           },
           {
             title: "Sunday - Qapital Savings Week #3 ($45)",

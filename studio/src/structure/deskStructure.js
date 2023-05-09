@@ -57,26 +57,20 @@ export default () =>
           S.list()
             .title("Budget App")
             .items([
+              S.documentTypeListItem("balance").title("Current Balances"),
               S.divider(),
+              S.documentTypeListItem("firstPaycheck").title("Paycheck Budgets"),
               S.documentTypeListItem("monthlyBudget").title("Monthly Budgets"),
+              S.documentTypeListItem("archerUtilities").title(
+                "Average Utility Bills"
+              ),
               S.divider(),
               S.documentTypeListItem("debt").title("List of Debts"),
               S.documentTypeListItem("debtCollector").title(
                 "Debt Collection Companies"
               ),
-              S.documentTypeListItem("balance").title("Current Balances"),
-              S.documentTypeListItem("firstPaycheck").title(
-                "Paycheck Template (5th)"
-              ),
-              S.documentTypeListItem("secondPaycheck").title(
-                "Paycheck Template (20th)"
-              ),
-              S.documentTypeListItem("bill").title(
-                "Bills (to be moved/hidden later)"
-              ),
-              S.documentTypeListItem("archerUtilities").title(
-                "Average Utility Bill"
-              ),
+              S.divider(),
+              S.documentTypeListItem("bill").title("All Bills..."),
             ])
         ),
       S.divider(),

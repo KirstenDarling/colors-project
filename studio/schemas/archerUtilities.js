@@ -1,4 +1,4 @@
-import { MdAttachMoney as icon } from "react-icons/md";
+import { MdLightbulbOutline as icon } from "react-icons/md";
 
 export default {
   name: "archerUtilities",
