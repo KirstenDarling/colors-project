@@ -1,4 +1,4 @@
-import { MdAttachMoney as icon } from "react-icons/md";
+import { MdContentPaste as icon } from "react-icons/md";
 
 export default {
   name: "bill",
@@ -52,7 +52,7 @@ export default {
   preview: {
     select: {
       title: "name",
-      subtitle: "status",
+      subtitle: "amount",
     },
   },
 };

@@ -16,7 +16,6 @@ import screening from "./screening";
 import activity from "./activity";
 import color from "./color";
 import firstPaycheck from "./firstPaycheck";
-import secondPaycheck from "./secondPaycheck";
 import monthlyBudget from "./monthlyBudget";
 import goal from "./goal";
 import spell from "./spell";
@@ -48,7 +47,6 @@ export default createSchema({
     debt,
     debtCollector,
     firstPaycheck,
-    secondPaycheck,
     monthlyBudget,
     goal,
     spell,

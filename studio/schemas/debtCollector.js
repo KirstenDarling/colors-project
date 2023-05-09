@@ -1,7 +1,10 @@
+import { MdMoneyOff as icon } from "react-icons/md";
+
 export default {
   name: "debtCollector",
   title: "Debt Collector",
   type: "document",
+  icon,
   fields: [
     {
       name: "collectionsCompany",

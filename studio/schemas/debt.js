@@ -1,4 +1,4 @@
-import { MdAttachMoney as icon } from "react-icons/md";
+import { MdMoneyOff as icon } from "react-icons/md";
 
 export default {
   name: "debt",
