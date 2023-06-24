@@ -1,0 +1,36 @@
+{
+  "name": "red-owl",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "keywords": [
+    "sanity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:KirstenDarling/colors-project.git"
+  },
+  "license": "UNLICENSED",
+  "author": "Kirsten Bachert-Darling <darlingwebdevelopment@gmail.com>",
+  "main": "package.json",
+  "scripts": {
+    "build": "sanity build",
+    "dev": "sanity dev",
+    "start": "sanity start"
+  },
+  "dependencies": {
+    "@sanity/color-input": "^3.1.0",
+    "@sanity/eslint-config-studio": "^2.0.1",
+    "@sanity/google-maps-input": "^3.0.1",
+    "@sanity/ui": "^1.6.0",
+    "@sanity/vision": "^3.12.2",
+    "eslint": "^8.43.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "sanity": "^3.12.2",
+    "styled-components": "^5.2"
+  },
+  "devDependencies": {}
+}
