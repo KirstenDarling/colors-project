@@ -1,11 +1,21 @@
 import Head from "next/head";
 import Link from "next/link";
+// import { useRouter } from "next/router";
+// import { sanityClient } from "../src/lib/sanity";
+// import { groq } from "next-sanity";
+import useSWR from "swr";
 
 import colors from "../data/colors.json";
 
-// TODO: link this repo to Sanity.io
-
 export default function Home() {
+  //   const { query } = useRouter();
+  //   const { data } = useSWR(groq`*[_type == "color"]`, (query) =>
+  //     sanityClient.fetch(query)
+  //   ) as {
+  //     data: string[];
+  //   };
+  //   console.log(data);
+
   return (
     <div>
       <Head>
