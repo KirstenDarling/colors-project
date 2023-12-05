@@ -15,7 +15,7 @@ import "swiper/css/scrollbar";
 
 import { Scrollbar } from "swiper";
 
-import activities from "../../../data/activities.json";
+import activities from "../data/activities.json";
 
 export default function Bored() {
   const [isOpen, setIsOpen] = useState(false);

@@ -897,7 +897,8 @@
     "why": "",
     "link": "",
     "isShow": false,
-    "description": ""
+    "description": "",
+    "type": "breakfast"
   },
   {
     "activity": "Try a Lavender Latte at Lil Coffea Shop",
@@ -1059,6 +1060,7 @@
     "why": "Westword 100 Best Restaurants We Can't Live Without - December 2022",
     "link": "",
     "isShow": false,
+    "type": "breakfast",
     "description": "Shawn Bergin moved to Denver with dreams of starting a bakery business, but he never imagined it would take off the way it did. Bakery Four quickly outgrew its small Highland home, and now it's in an expansive space that allows Bergin to make much larger quantities of his sought-after pastries, bread, bagels, breakfast sandwiches and more, all made using sourdough starter. Show up early for the best selection. ($)"
   },
   {
@@ -2283,6 +2285,7 @@
     "why": "DRINK HERE - Westword's 100 Bars We Can't Live Without - November 2022",
     "link": "",
     "isShow": false,
+    "type": "breakfast",
     "description": "Colorful characters from Denver’s past are rumored to have bellied up to the bar at Charlie Brown’s, which has been open since Prohibition ended. A sprawling spot filled with the music of nightly piano sing-alongs, it lives up to its slogan: “Something for everyone.” Couples, friends, tourists, young professionals, senior citizens, college kids and even celebrities enjoy the stiff drinks, huge food menu, enclosed smoking patio and free drinks for revelers celebrating their birthdays. Here’s hoping the drinks will flow long into the future at this Denver landmark. ($$)"
   },
   {
