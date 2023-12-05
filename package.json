@@ -1,9 +1,12 @@
 {
-  "name": "Kirsten's Project Playground",
-  "version": "2.0.1",
+  "name": "colors-project",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "next": "^14.0.3",
+    "node": "18.17.0"
+  },
   "devDependencies": {},
   "scripts": {
     "studio": "cd apps && cd studio && yarn run start",
