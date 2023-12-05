@@ -22,6 +22,7 @@ interface Props {
   imageHeight: number;
   imageWidth: number;
   pickActivity: any;
+  type?: string;
 }
 
 const Modal = ({
