@@ -1,0 +1,25 @@
+{
+    "name": "@types/event-source-polyfill",
+    "version": "1.0.1",
+    "description": "TypeScript definitions for event-source-polyfill",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/event-source-polyfill",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Emily Klassen",
+            "url": "https://github.com/forivall",
+            "githubUsername": "forivall"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/event-source-polyfill"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "typesPublisherContentHash": "b48673ad92543e84f0906ab2025094f4eb95a67afaa1b0f9aff929b12a91e2e8",
+    "typeScriptVersion": "4.2"
+}

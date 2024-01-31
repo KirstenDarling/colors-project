@@ -1,0 +1,95 @@
+[
+  { "name": "Illuminating", "hex": "#F5DF4D" },
+  { "name": "Classic Blue", "hex": "#0f4c81" },
+  { "name": "Living Coral", "hex": "#fa7269" },
+  { "name": "Ultra Violet", "hex": "#5f4b8b" },
+  { "name": "Greenery", "hex": "#88b04b" },
+  { "name": "Rose Quartz", "hex": "#f7cac9" },
+  { "name": "Marsala", "hex": "#b57170" },
+  { "name": "Radiant Orchid", "hex": "#b06781" },
+  { "name": "Emerald", "hex": "#009473" },
+  {
+    "name": "Tangerine Tango",
+    "hex": "#e84c22"
+  },
+  {
+    "name": "Honeysuckle",
+    "hex": "#d94f70"
+  },
+  {
+    "name": "Turquoise",
+    "hex": "#45b5aa"
+  },
+  {
+    "name": "Mimosa",
+    "hex": "#f0c05a"
+  },
+  {
+    "name": "Blue Iris",
+    "hex": "#5a5b9f"
+  },
+  {
+    "name": "Chili Pepper",
+    "hex": "#9b1b30"
+  },
+  {
+    "name": "Sand Dollar",
+    "hex": "#decdbf"
+  },
+  {
+    "name": "Blue Turquoise",
+    "hex": "#53b0ae"
+  },
+  {
+    "name": "Tigerlily",
+    "hex": "#e2583e"
+  },
+  {
+    "name": "Cerulean",
+    "hex": "#9bb7d4"
+  },
+  {
+    "name": "True Red",
+    "hex": "#cf2d42"
+  },
+  {
+    "name": "Fuchsia Rose",
+    "hex": "#c74375"
+  },
+  {
+    "name": "Deep Lichen Green",
+    "hex": "#839b5c"
+  },
+  {
+    "name": "Blue Iris",
+    "hex": "#5a5b9f"
+  },
+  {
+    "name": "Aqua Sky",
+    "hex": "#7bc4c4"
+  },
+  {
+    "name": "Marsala",
+    "hex": "#955251"
+  },
+  {
+    "name": "Tangerine Tango",
+    "hex": "#e84c22"
+  },
+  {
+    "name": "Honeysuckle",
+    "hex": "#d94f70"
+  },
+  {
+    "name": "Turquoise",
+    "hex": "#45b5aa"
+  },
+  {
+    "name": "Mimosa",
+    "hex": "#f0c05a"
+  },
+  {
+    "name": "Blue Iris",
+    "hex": "#5a5b9f"
+  }
+]
